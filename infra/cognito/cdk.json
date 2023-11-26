@@ -1,0 +1,33 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/aws-cognito-solidjs-cognito.ts",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "yarn.lock",
+      "node_modules",
+      "test"
+    ]
+  },
+  "requireApproval": "never",
+  "context": {
+    "dev": {
+      "domain": "dev-azure-oidc",
+      "callbackUrls": [
+        "http://localhost:5173/",
+        "http://localhost:3000/"
+      ],
+      "logoutUrls": [
+        "http://localhost:5173/",
+        "http://localhost:3000/"
+      ]
+    }
+  }
+}
