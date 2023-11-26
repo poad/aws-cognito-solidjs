@@ -5,6 +5,7 @@ import * as auth from "./auth";
 const App: Component = () => {
   const [session] = auth.useSession();
   const [user] = auth.useCurrentUser();
+  const [attributes] = auth.useUserAttributes();
   return (
     <>
       <Show
@@ -14,7 +15,7 @@ const App: Component = () => {
         <h1>Hello world!!!!</h1>
         <Comp />
         <Show when={!user.loading && user()}>
-          <p>{user().username}</p>
+          <p>{attributes()?.name}</p>
         </Show>
         <auth.SignOutButton />
       </Show>
