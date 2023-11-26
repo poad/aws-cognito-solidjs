@@ -1,0 +1,65 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+      time: "12:00"
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+      time: "12:00"
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      npm:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: '/app/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+      time: "12:00"
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      frontend:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: '/infra/cognito/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+      time: "12:00"
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      awscdk:
+        patterns:
+          - "*"
