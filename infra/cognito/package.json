@@ -20,9 +20,9 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.129",
     "@types/node": "^20.10.0",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
-    "aws-cdk": "^2.110.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "aws-cdk": "^2.111.0",
     "esbuild": "^0.19.8",
     "eslint": "^8.54.0",
     "eslint-config-import": "^0.13.0",
@@ -37,8 +37,8 @@
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^1.17.0",
-    "@aws-sdk/client-cognito-identity-provider": "^3.454.0",
-    "aws-cdk-lib": "^2.110.1",
+    "@aws-sdk/client-cognito-identity-provider": "^3.458.0",
+    "aws-cdk-lib": "^2.111.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
