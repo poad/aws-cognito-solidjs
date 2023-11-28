@@ -36,119 +36,119 @@ export class CognitoEntraIdOidcStack extends cdk.Stack {
       logoutUrls,
     } = props;
 
-    const preSignUpFunctionName = `${environment}-entra-id-oidc-pre-sign-up-trigger`
-    const preSignUpLogGroup = new logs.LogGroup(this, 'PreSignUpLambdaFunctionLogGroup', {
-      logGroupName: `/aws/lambda/${preSignUpFunctionName}`,
-      removalPolicy: cdk.RemovalPolicy.DESTROY,
-      retention: logs.RetentionDays.ONE_DAY,
-    });
+    const preSignUpFunctionName = `${environment}-entra-id-oidc-pre-sign-up-trigger`;
+    const preSignUpLogGroup = new logs.LogGroup(
+      this,
+      'PreSignUpLambdaFunctionLogGroup',
+      {
+        logGroupName: `/aws/lambda/${preSignUpFunctionName}`,
+        removalPolicy: cdk.RemovalPolicy.DESTROY,
+        retention: logs.RetentionDays.ONE_DAY,
+      }
+    );
 
-    const preSignUpFn = new nodejs.NodejsFunction(this, 'PreSignUpLambdaFunction', {
-      runtime: lambda.Runtime.NODEJS_20_X,
-      architecture: lambda.Architecture.ARM_64,
-      entry: 'cognito-triggers/pre-sign-up/index.ts',
-      functionName: preSignUpFunctionName,
-      retryAttempts: 0,
-      environment: {
-        'PROVIDERS': 'EntraID',
-        NODE_OPTIONS: '--enable-source-maps',
-      },
-      bundling: {
-        minify: true,
-        sourceMap: true,
-        sourceMapMode: nodejs.SourceMapMode.BOTH,
-        sourcesContent: true,
-        keepNames: true,
-      },
-      role: new iam.Role(this, 'PreSignUpExecutionRole', {
-        assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
-        inlinePolicies: {
-          'logs-policy': new iam.PolicyDocument({
-            statements: [
-              new iam.PolicyStatement({
-                effect: iam.Effect.ALLOW,
-                actions: [
-                  'logs:CreateLogStream',
-                  'logs:PutLogEvents',
-                ],
-                resources: [`${preSignUpLogGroup.logGroupArn}:*`],
-              }),
-            ],
-          }),
-          'assumed-role-policy': new iam.PolicyDocument(
-            {
+    const preSignUpFn = new nodejs.NodejsFunction(
+      this,
+      'PreSignUpLambdaFunction',
+      {
+        runtime: lambda.Runtime.NODEJS_20_X,
+        architecture: lambda.Architecture.ARM_64,
+        entry: 'cognito-triggers/pre-sign-up/index.ts',
+        functionName: preSignUpFunctionName,
+        retryAttempts: 0,
+        environment: {
+          PROVIDERS: 'EntraID',
+          NODE_OPTIONS: '--enable-source-maps',
+        },
+        bundling: {
+          minify: true,
+          sourceMap: true,
+          sourceMapMode: nodejs.SourceMapMode.BOTH,
+          sourcesContent: true,
+          keepNames: true,
+        },
+        role: new iam.Role(this, 'PreSignUpExecutionRole', {
+          assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
+          inlinePolicies: {
+            'logs-policy': new iam.PolicyDocument({
               statements: [
                 new iam.PolicyStatement({
                   effect: iam.Effect.ALLOW,
-                  actions: [
-                    'cognito-identity:*',
-                    'cognito-idp:*',
-                  ],
-                  resources: ['*'],
+                  actions: ['logs:CreateLogStream', 'logs:PutLogEvents'],
+                  resources: [`${preSignUpLogGroup.logGroupArn}:*`],
                 }),
               ],
-            },
-          ),
-        },
-      }),
-    });
-
-    const postConfirmFunctionName = `${environment}-entra-id-oidc-post-confirm-trigger`
-    const postConfirmLogGroup = new logs.LogGroup(this, 'PostConfirmLambdaFunctionLogGroup', {
-      logGroupName: `/aws/lambda/${postConfirmFunctionName}`,
-      removalPolicy: cdk.RemovalPolicy.DESTROY,
-      retention: logs.RetentionDays.ONE_DAY,
-    });
-
-    const postConfirmFn = new nodejs.NodejsFunction(this, 'PostConfirmLambdaFunction', {
-      runtime: lambda.Runtime.NODEJS_20_X,
-      architecture: lambda.Architecture.ARM_64,
-      entry: 'cognito-triggers/post-confirm/index.ts',
-      functionName: postConfirmFunctionName,
-      retryAttempts: 0,
-      environment: {
-        'PROVIDERS': 'EntraID',
-        NODE_OPTIONS: '--enable-source-maps',
-      },
-      bundling: {
-        minify: true,
-        sourceMap: true,
-        sourceMapMode: nodejs.SourceMapMode.BOTH,
-        sourcesContent: true,
-        keepNames: true,
-      },
-      role: new iam.Role(this, 'PostConfirmExecutionRole', {
-        assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
-        inlinePolicies: {
-          'logs-policy': new iam.PolicyDocument({
-            statements: [
-              new iam.PolicyStatement({
-                effect: iam.Effect.ALLOW,
-                actions: [
-                  'logs:CreateLogStream',
-                  'logs:PutLogEvents',
-                ],
-                resources: [`${postConfirmLogGroup.logGroupArn}:*`],
-              }),
-            ],
-          }),
-          'assumed-role-policy': new iam.PolicyDocument(
-            {
+            }),
+            'assumed-role-policy': new iam.PolicyDocument({
               statements: [
                 new iam.PolicyStatement({
                   effect: iam.Effect.ALLOW,
-                  actions: [
-                    'cognito-identity:*',
-                    'cognito-idp:*',
-                  ],
+                  actions: ['cognito-identity:*', 'cognito-idp:*'],
                   resources: ['*'],
                 }),
               ],
-            },
-          ),
+            }),
+          },
+        }),
+      }
+    );
+
+    const postConfirmFunctionName = `${environment}-entra-id-oidc-post-confirm-trigger`;
+    const postConfirmLogGroup = new logs.LogGroup(
+      this,
+      'PostConfirmLambdaFunctionLogGroup',
+      {
+        logGroupName: `/aws/lambda/${postConfirmFunctionName}`,
+        removalPolicy: cdk.RemovalPolicy.DESTROY,
+        retention: logs.RetentionDays.ONE_DAY,
+      }
+    );
+
+    const postConfirmFn = new nodejs.NodejsFunction(
+      this,
+      'PostConfirmLambdaFunction',
+      {
+        runtime: lambda.Runtime.NODEJS_20_X,
+        architecture: lambda.Architecture.ARM_64,
+        entry: 'cognito-triggers/post-confirm/index.ts',
+        functionName: postConfirmFunctionName,
+        retryAttempts: 0,
+        environment: {
+          PROVIDERS: 'EntraID',
+          NODE_OPTIONS: '--enable-source-maps',
         },
-      }),
-    });
+        bundling: {
+          minify: true,
+          sourceMap: true,
+          sourceMapMode: nodejs.SourceMapMode.BOTH,
+          sourcesContent: true,
+          keepNames: true,
+        },
+        role: new iam.Role(this, 'PostConfirmExecutionRole', {
+          assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
+          inlinePolicies: {
+            'logs-policy': new iam.PolicyDocument({
+              statements: [
+                new iam.PolicyStatement({
+                  effect: iam.Effect.ALLOW,
+                  actions: ['logs:CreateLogStream', 'logs:PutLogEvents'],
+                  resources: [`${postConfirmLogGroup.logGroupArn}:*`],
+                }),
+              ],
+            }),
+            'assumed-role-policy': new iam.PolicyDocument({
+              statements: [
+                new iam.PolicyStatement({
+                  effect: iam.Effect.ALLOW,
+                  actions: ['cognito-identity:*', 'cognito-idp:*'],
+                  resources: ['*'],
+                }),
+              ],
+            }),
+          },
+        }),
+      }
+    );
 
     const userPool = new cognito.UserPool(this, 'CognitoOidcUserPool', {
       userPoolName: `${environment}-entra-id-oidc-user-pool`,
@@ -203,12 +203,8 @@ export class CognitoEntraIdOidcStack extends cdk.Stack {
           profilePage: cognito.ProviderAttribute.other('profile'),
           preferredUsername: cognito.ProviderAttribute.other('name'),
           custom: {
-            name: cognito.ProviderAttribute.other(
-              'name'
-            ),
-            email_verified: cognito.ProviderAttribute.other(
-              'xms_edov'
-            ),
+            name: cognito.ProviderAttribute.other('name'),
+            email_verified: cognito.ProviderAttribute.other('xms_edov'),
           },
         },
         userPool,
