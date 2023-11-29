@@ -21,7 +21,7 @@ importers:
         version: 1.8.6
       vite-plugin-node-polyfills:
         specifier: ^0.16.0
-        version: 0.16.0(vite@5.0.2)
+        version: 0.16.0(vite@5.0.3)
     devDependencies:
       '@types/node':
         specifier: ^20.10.0
@@ -30,11 +30,11 @@ importers:
         specifier: ^5.3.2
         version: 5.3.2
       vite:
-        specifier: ^5.0.2
-        version: 5.0.2(@types/node@20.10.0)
+        specifier: ^5.0.3
+        version: 5.0.3(@types/node@20.10.0)
       vite-plugin-solid:
         specifier: ^2.7.2
-        version: 2.7.2(solid-js@1.8.6)(vite@5.0.2)
+        version: 2.7.2(solid-js@1.8.6)(vite@5.0.3)
 
   infra/cognito:
     dependencies:
@@ -42,8 +42,8 @@ importers:
         specifier: ^1.17.0
         version: 1.17.0
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.460.0
-        version: 3.460.0
+        specifier: ^3.461.0
+        version: 3.461.0
       aws-cdk-lib:
         specifier: ^2.111.0
         version: 2.111.0(constructs@10.3.0)
@@ -285,7 +285,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.460.0
       tslib: 2.6.2
     dev: false
 
@@ -306,7 +306,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.460.0
       '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     dev: false
@@ -327,19 +327,19 @@ packages:
       lodash.merge: 4.6.2
     dev: false
 
-  /@aws-sdk/client-cognito-identity-provider@3.460.0:
-    resolution: {integrity: sha512-O1SowXzse9CBHxdAJGlrGeB+chsch2urCE7thRgEkZWl1aWuntz3P9DjiW1ZLIqwbK+mNmcYRdlCj9t+zw4jyw==}
+  /@aws-sdk/client-cognito-identity-provider@3.461.0:
+    resolution: {integrity: sha512-sRXdjVLj72oOsRT75wfm5CWnPxdS7bu69X/2Dh+dhKnDz0IvQeRtpMR3dvMGJ8rqG6cWncAgcah6fegJtdF3ag==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.460.0
+      '@aws-sdk/client-sts': 3.461.0
       '@aws-sdk/core': 3.451.0
       '@aws-sdk/credential-provider-node': 3.460.0
       '@aws-sdk/middleware-host-header': 3.460.0
       '@aws-sdk/middleware-logger': 3.460.0
       '@aws-sdk/middleware-recursion-detection': 3.460.0
-      '@aws-sdk/middleware-signing': 3.460.0
+      '@aws-sdk/middleware-signing': 3.461.0
       '@aws-sdk/middleware-user-agent': 3.460.0
       '@aws-sdk/region-config-resolver': 3.451.0
       '@aws-sdk/types': 3.460.0
@@ -412,7 +412,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -459,7 +459,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       '@smithy/util-waiter': 2.0.14
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -504,7 +504,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -545,7 +545,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -633,15 +633,15 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-sts@3.460.0:
-    resolution: {integrity: sha512-Z4h9hZJG5RB9iwhyXlkcnJqCP25+rgIrT8UDryItJfWyK+Pberk1Zft7XwEiyDGXoc48BJvtf7SbOwx3cutgFw==}
+  /@aws-sdk/client-sts@3.461.0:
+    resolution: {integrity: sha512-1u+t31m23vuc9zkiUk51L4QbwuRQEuBeMArHK/thmq4V+A0VmjoAr/x2D0eQ0deOuBqG5YC62oaqUfIhj03SIw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -651,8 +651,8 @@ packages:
       '@aws-sdk/middleware-host-header': 3.460.0
       '@aws-sdk/middleware-logger': 3.460.0
       '@aws-sdk/middleware-recursion-detection': 3.460.0
-      '@aws-sdk/middleware-sdk-sts': 3.460.0
-      '@aws-sdk/middleware-signing': 3.460.0
+      '@aws-sdk/middleware-sdk-sts': 3.461.0
+      '@aws-sdk/middleware-signing': 3.461.0
       '@aws-sdk/middleware-user-agent': 3.460.0
       '@aws-sdk/region-config-resolver': 3.451.0
       '@aws-sdk/types': 3.460.0
@@ -930,11 +930,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-sdk-sts@3.460.0:
-    resolution: {integrity: sha512-eAaKBULwvIEToKweJtZ+gLrDPVwdi/XYjiJMJFBVDFk1n6kfHeS6BlNVrw713YrThpPiWfKNz8U3TvWtvD2Wpg==}
+  /@aws-sdk/middleware-sdk-sts@3.461.0:
+    resolution: {integrity: sha512-sgNxkwKdJ/NZm7SJZBnbYPkbspmzn3lDyRSJH7PTCvyzDBzY2PB6yS/dfnGkitR+PYwromuOYMha37W4su2SOw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@aws-sdk/middleware-signing': 3.460.0
+      '@aws-sdk/middleware-signing': 3.461.0
       '@aws-sdk/types': 3.460.0
       '@smithy/types': 2.6.0
       tslib: 2.6.2
@@ -953,8 +953,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-signing@3.460.0:
-    resolution: {integrity: sha512-f7dPf0TdyGMMlMoaGLV85nCfcGZOMIaNm+nR0x21H4SJyn1vCNSLMD6Nksav26hAdI3zreBtI2enudj8YYl2XA==}
+  /@aws-sdk/middleware-signing@3.461.0:
+    resolution: {integrity: sha512-aM/7VupHlsgeRG1UZSAQMWJX+2Jam4GG8ZGVAbLfBr9yh9cBwnUUndpUpYI9rU7atA8n+vISr162EbR7WTiFhQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.460.0
@@ -1036,7 +1036,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.20
       '@smithy/util-defaults-mode-node': 2.0.26
       '@smithy/util-retry': 2.0.7
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -5360,7 +5360,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-node-polyfills@0.16.0(vite@5.0.2):
+  /vite-plugin-node-polyfills@0.16.0(vite@5.0.3):
     resolution: {integrity: sha512-uj1ymOmk7TliMxiivmXokpMY5gVMBpFPSZPLQSCv/LjkJGGKwyLjpbFL64dbYZEdFSUQ3tM7pbrxNh25yvhqOA==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0 || ^4.0.0
@@ -5369,12 +5369,12 @@ packages:
       buffer-polyfill: /buffer@6.0.3
       node-stdlib-browser: 1.2.0
       process: 0.11.10
-      vite: 5.0.2(@types/node@20.10.0)
+      vite: 5.0.3(@types/node@20.10.0)
     transitivePeerDependencies:
       - rollup
     dev: false
 
-  /vite-plugin-solid@2.7.2(solid-js@1.8.6)(vite@5.0.2):
+  /vite-plugin-solid@2.7.2(solid-js@1.8.6)(vite@5.0.3):
     resolution: {integrity: sha512-GV2SMLAibOoXe76i02AsjAg7sbm/0lngBlERvJKVN67HOrJsHcWgkt0R6sfGLDJuFkv2aBe14Zm4vJcNME+7zw==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -5387,14 +5387,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.6
       solid-refresh: 0.5.3(solid-js@1.8.6)
-      vite: 5.0.2(@types/node@20.10.0)
-      vitefu: 0.2.5(vite@5.0.2)
+      vite: 5.0.3(@types/node@20.10.0)
+      vitefu: 0.2.5(vite@5.0.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.0.2(@types/node@20.10.0):
-    resolution: {integrity: sha512-6CCq1CAJCNM1ya2ZZA7+jS2KgnhbzvxakmlIjN24cF/PXhRMzpM/z8QgsVJA/Dm5fWUWnVEsmtBoMhmerPxT0g==}
+  /vite@5.0.3(@types/node@20.10.0):
+    resolution: {integrity: sha512-WgEq8WEKpZ8c0DL4M1+E+kBZEJyjBmGVrul6z8Ljfhv+PPbNF4aGq014DwNYxGz2FGq6NKL0N8usdiESWd2l2w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5428,7 +5428,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@5.0.2):
+  /vitefu@0.2.5(vite@5.0.3):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -5436,7 +5436,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.0.2(@types/node@20.10.0)
+      vite: 5.0.3(@types/node@20.10.0)
     dev: true
 
   /vm-browserify@1.1.2:
