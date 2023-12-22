@@ -45,8 +45,8 @@ importers:
         specifier: ^3.478.0
         version: 3.478.0
       aws-cdk-lib:
-        specifier: ^2.115.0
-        version: 2.115.0(constructs@10.3.0)
+        specifier: ^2.116.0
+        version: 2.116.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -70,8 +70,8 @@ importers:
         specifier: ^6.15.0
         version: 6.15.0(eslint@8.56.0)(typescript@5.3.3)
       aws-cdk:
-        specifier: ^2.115.0
-        version: 2.115.0
+        specifier: ^2.116.0
+        version: 2.116.0
       esbuild:
         specifier: ^0.19.10
         version: 0.19.10
@@ -285,7 +285,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.468.0
+      '@aws-sdk/types': 3.398.0
       tslib: 2.6.2
     dev: false
 
@@ -306,7 +306,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.468.0
+      '@aws-sdk/types': 3.398.0
       '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     dev: false
@@ -413,7 +413,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -460,7 +460,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       '@smithy/util-waiter': 2.0.15
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -505,7 +505,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -546,7 +546,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -635,7 +635,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1032,7 +1032,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.22
       '@smithy/util-defaults-mode-node': 2.0.29
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.2
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -2786,8 +2786,8 @@ packages:
       - aws-crt
     dev: false
 
-  /aws-cdk-lib@2.115.0(constructs@10.3.0):
-    resolution: {integrity: sha512-PGIwmjo9BcviKxuMfMlUCwevUjwXnaS5h8fxZOM6bN1HXCS/wIusft4tMmkiNYjPiNE1sHJbCDIbxxntCQ/7jg==}
+  /aws-cdk-lib@2.116.0(constructs@10.3.0):
+    resolution: {integrity: sha512-LOYJGtKLvf/wVt3UMwWQxvxgAM681ZV/BbGGB6aEqc7+4TMfbYFbaA02+zwN0E0zxOxi4l0j1/BNO4GOzVSoPw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -2809,8 +2809,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.115.0:
-    resolution: {integrity: sha512-jf+5j+ygk/DqxLzYyjFnCOOlRgvL/fwcYhyanhpb1OEQEe1FF6NGUb1TYsnQc3Ly67qLOKkQgdeyeXgzkKoSOQ==}
+  /aws-cdk@2.116.0:
+    resolution: {integrity: sha512-Vhy0rxund2kLQekMZodGvhqh5qnNSLl+Y/qjx6Zr2pr36xHvT5Tn1sqatmPoj05sQVypikg9Dteg+SUiVOrWfA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -2983,7 +2983,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001571
-      electron-to-chromium: 1.4.615
+      electron-to-chromium: 1.4.616
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
@@ -3000,7 +3000,7 @@ packages:
     resolution: {integrity: sha512-xq+q3SRMOxGivLhBNaUdC64hDTQwejJ+H0T/NB1XMtTVEwNTrfFF3gAxiyW0Bu/xWEGhjVKgUcMhCrUy2+uCWg==}
     dependencies:
       base64-js: 1.5.1
-      ieee754: 1.2.1
+      ieee754: 1.1.13
       isarray: 1.0.0
     dev: false
 
@@ -3286,8 +3286,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /electron-to-chromium@1.4.615:
-    resolution: {integrity: sha512-/bKPPcgZVUziECqDc+0HkT87+0zhaWSZHNXqF8FLd2lQcptpmUFwoCSWjCdOng9Gdq+afKArPdEg/0ZW461Eng==}
+  /electron-to-chromium@1.4.616:
+    resolution: {integrity: sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg==}
     dev: true
 
   /elliptic@6.5.4:
