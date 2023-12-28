@@ -20,8 +20,8 @@ importers:
         specifier: ^1.8.7
         version: 1.8.7
       vite-plugin-node-polyfills:
-        specifier: ^0.18.0
-        version: 0.18.0(vite@5.0.10)
+        specifier: ^0.19.0
+        version: 0.19.0(vite@5.0.10)
     devDependencies:
       '@types/node':
         specifier: ^20.10.5
@@ -285,7 +285,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.468.0
       tslib: 2.6.2
     dev: false
 
@@ -306,7 +306,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.468.0
       '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     dev: false
@@ -413,7 +413,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -460,7 +460,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       '@smithy/util-waiter': 2.0.15
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -505,7 +505,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -546,7 +546,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -635,7 +635,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1032,7 +1032,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.0.23
       '@smithy/util-defaults-mode-node': 2.0.30
       '@smithy/util-retry': 2.0.8
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -5178,8 +5178,8 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-node-polyfills@0.18.0(vite@5.0.10):
-    resolution: {integrity: sha512-zkdLD3gpOhLFyxYRMJ5apk0RcODhomuS3XQgExowiX8naoc251JfcP3toqnfDlMdF0xuPYahre/H38xAcq8ApA==}
+  /vite-plugin-node-polyfills@0.19.0(vite@5.0.10):
+    resolution: {integrity: sha512-AhdVxAmVnd1doUlIRGUGV6ZRPfB9BvIwDF10oCOmL742IsvsFIAV4tSMxSfu5e0Px0QeJLgWVOSbtHIvblzqMw==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
