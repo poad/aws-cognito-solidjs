@@ -12,13 +12,13 @@ importers:
     dependencies:
       '@solidjs/router':
         specifier: ^0.10.9
-        version: 0.10.9(solid-js@1.8.11)
+        version: 0.10.9(solid-js@1.8.12)
       aws-amplify:
-        specifier: ^6.0.12
-        version: 6.0.12
+        specifier: ^6.0.13
+        version: 6.0.13
       solid-js:
-        specifier: ^1.8.11
-        version: 1.8.11
+        specifier: ^1.8.12
+        version: 1.8.12
       vite-plugin-node-polyfills:
         specifier: ^0.19.0
         version: 0.19.0(vite@5.0.12)
@@ -34,7 +34,7 @@ importers:
         version: 5.0.12(@types/node@20.11.5)
       vite-plugin-solid:
         specifier: ^2.8.3
-        version: 2.8.3(@testing-library/jest-dom@6.2.1)(solid-js@1.8.11)(vite@5.0.12)
+        version: 2.8.3(@testing-library/jest-dom@6.2.1)(solid-js@1.8.12)(vite@5.0.12)
 
   infra/cognito:
     dependencies:
@@ -125,12 +125,12 @@ packages:
       '@jridgewell/trace-mapping': 0.3.22
     dev: true
 
-  /@aws-amplify/analytics@7.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-JRt4wgGIUL98oq2SAjfHQa2SN/ibWXF6MtWp/X2QUdJQ1LHV/fDMBPBgPGWEkXUu8noFNHJL26smcRfsfvfSZw==}
+  /@aws-amplify/analytics@7.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-riOtiAYn7ja2YrxV0A78f9XB6Pd9kmAk1DO6xyyKGSEsoEGKNtJ3CJkWBMtQeIDExGqX0LO/I+Mfey8QJxiytQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       '@aws-sdk/client-firehose': 3.398.0
       '@aws-sdk/client-kinesis': 3.398.0
       '@aws-sdk/client-personalize-events': 3.398.0
@@ -140,11 +140,11 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-amplify/api-graphql@4.0.12:
-    resolution: {integrity: sha512-e1bBDOmuakQ5vFBXJiKzxK6AoVdxzKxyh+GCaPDInLnC5DDCTxgFlCqfGWM65S1oDkWYOW2luHHgsSErBgOT/A==}
+  /@aws-amplify/api-graphql@4.0.13:
+    resolution: {integrity: sha512-FdsPKqcsy4aXNxx+9kxMKhZo8fBLanfG9P44oVYDRi54+Poqcd7eeqqWYnB03uYO5MW3oN6ZriHmy4JTnxG/hw==}
     dependencies:
-      '@aws-amplify/api-rest': 4.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/api-rest': 4.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
       '@aws-amplify/data-schema-types': 0.6.12
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
@@ -153,36 +153,36 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/api-rest@4.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-Qwq3C5YoyJtGnWMPLEylcp6KZ9eAYiqZFG9GRYt0ITyhqODbUptxs/aAUHskUyRV3ahWbGxJ4ChJBYx2Pq/jDA==}
+  /@aws-amplify/api-rest@4.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-hTp7Tcuyoo6sIbnjjmBLXgkIctn44ZT+daotp/kORlQWAmzwqPAX7/oeP62astMb1Yax5k2Y2eMRgizt8bdF6A==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/api@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-A+RCi/oycOa/3AeduVYxrMbAu1GhNXMOZgSQI8SFGiPbM0o5VvRZLeL8oAVU/Vq8zWSwLsurPOz+H3MQMtt0sw==}
+  /@aws-amplify/api@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-fZ539EBTFAQbbXmqTPv7NuDnb2bHjjZU2ZoIdngWXEuPMmfqiE9WmLf0W9j3GDxlMLAJEMYa1SumT5kruVtQ3Q==}
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.12
-      '@aws-amplify/api-rest': 4.0.12(@aws-amplify/core@6.0.12)
+      '@aws-amplify/api-graphql': 4.0.13
+      '@aws-amplify/api-rest': 4.0.13(@aws-amplify/core@6.0.13)
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@aws-amplify/core'
     dev: false
 
-  /@aws-amplify/auth@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-NUJQUSY1flf5/VLfsN19Oj0/DkpP36dOm0lN1u5hlcNPfW3biEm073ifE9JcKvQjgRkKmufZ2U3uciBlCXsl3Q==}
+  /@aws-amplify/auth@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-ovOgqLf6mYprQW/rvpm01oXk5DEn6DlpHk99/8WVHvYezAM7jMcx4JEdqJxDC9m841/6AvGmzsRpABWHvEoVbQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/core@6.0.12:
-    resolution: {integrity: sha512-lBmYJsqh5SOYkeXS6/zoZ9VsMpoYNw8XqDFwf+XFXt+zn4UdZ0cVB+AD6L5VK7h2T0oNCzmQ0TiO2do5BHyvFg==}
+  /@aws-amplify/core@6.0.13:
+    resolution: {integrity: sha512-R/Om5R/K4WHrz44hgY4JQMPqgtG0sRDb3CuH4orxseWaIXuQLyYqpn3DU/tS+l1BVfpr1uYTWJZpZLv/l3ApUQ==}
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -200,13 +200,13 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@aws-amplify/datastore@5.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-Ps33AZ9pn/fCT009ihgodoDySrjONDWSEkkqfZbEMQKLK4mgRpM1GxpHHyhK+65S37vDltg5v1M5bP9PL//hqg==}
+  /@aws-amplify/datastore@5.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-fmQG8NHls1z1CJFyLvx8y83o6Cfaq/bZE4jJPA2jhnQ9+IHUMnhMKKQn5AYctmRYiD3RC72gicnp85HgoFH45A==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/api': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/api': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
@@ -214,22 +214,22 @@ packages:
       ulid: 2.3.0
     dev: false
 
-  /@aws-amplify/notifications@2.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-PCL7rctR8fsA13HfWKjwGfaBO8dcoGblF3KCjY1XLvy6PbPm9KhbN7OuWDulhlDc/C5NJuaxVFfKocmMWEYSSQ==}
+  /@aws-amplify/notifications@2.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-/7W1J7AVNodAYZGoAywB2Cm9eLabGjgX2hnGo9fAmqHKt1MKfSWUiEGsMTzeihUkXBRCIgPpsvJCUIu4p6P6eQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       lodash: 4.17.21
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/storage@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-dsWAN3nrKyby6EOeWA07il39HC77y2gsKyHuJ1+F1wmQb2obKAhKA13P5sW/eJhPvZvjGRXanQCR0QJeudMjHQ==}
+  /@aws-amplify/storage@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-3ri7O/Tk0N+UjLvJsDBszOAoXoIog2mVUYU/kpwQq0BAQpfBTdTzbaIk54QNyFNI0hsCb9fDFCn/7Djip8IpKQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
@@ -289,7 +289,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.496.0
       tslib: 2.6.2
     dev: false
 
@@ -310,7 +310,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.496.0
       '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     dev: false
@@ -417,7 +417,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -464,7 +464,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       '@smithy/util-waiter': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -509,7 +509,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -550,7 +550,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -639,7 +639,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1037,7 +1037,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -2418,12 +2418,12 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@solidjs/router@0.10.9(solid-js@1.8.11):
+  /@solidjs/router@0.10.9(solid-js@1.8.12):
     resolution: {integrity: sha512-TmipgAI2cU7A94fBO1MOEx7j9OYoKtddoOonSFb2221w5I1xxdjLk9W4CZDdyOVdO5z80f70KGJvNq83WFX/Qg==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
-      solid-js: 1.8.11
+      solid-js: 1.8.12
     dev: false
 
   /@testing-library/jest-dom@6.2.1:
@@ -2823,16 +2823,16 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  /aws-amplify@6.0.12:
-    resolution: {integrity: sha512-XSjakpiWnSekAQsRgj0RUhHlRFNfhwK9gXHgOqy4sWGFPYCNeZi94KkzL+OqSCybTRa5CVlh57OXfV7wEdykNg==}
+  /aws-amplify@6.0.13:
+    resolution: {integrity: sha512-z3APLE2ZJfntKot6wsb1+hNlPji2n/PxRqHdL5YD2dUXYVmj5P+WlVF1Bs9dF+254K2O6VvLK/ecTM/hMWimwA==}
     dependencies:
-      '@aws-amplify/analytics': 7.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/api': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/auth': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
-      '@aws-amplify/datastore': 5.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/notifications': 2.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/storage': 6.0.12(@aws-amplify/core@6.0.12)
+      '@aws-amplify/analytics': 7.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/api': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/auth': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
+      '@aws-amplify/datastore': 5.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/notifications': 2.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/storage': 6.0.13(@aws-amplify/core@6.0.13)
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -4925,14 +4925,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js@1.8.11:
-    resolution: {integrity: sha512-WdwmER+TwBJiN4rVQTVBxocg+9pKlOs41KzPYntrC86xO5sek8TzBYozPEZPL1IRWDouf2lMrvSbIs3CanlPvQ==}
+  /solid-js@1.8.12:
+    resolution: {integrity: sha512-sLE/i6M9FSWlov3a2pTC5ISzanH2aKwqXTZj+bbFt4SUrVb4iGEa7fpILBMOxsQjkv3eXqEk6JVLlogOdTe0UQ==}
     dependencies:
       csstype: 3.1.3
       seroval: 1.0.4
       seroval-plugins: 1.0.4(seroval@1.0.4)
 
-  /solid-refresh@0.6.3(solid-js@1.8.11):
+  /solid-refresh@0.6.3(solid-js@1.8.12):
     resolution: {integrity: sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA==}
     peerDependencies:
       solid-js: ^1.3
@@ -4940,7 +4940,7 @@ packages:
       '@babel/generator': 7.23.6
       '@babel/helper-module-imports': 7.22.15
       '@babel/types': 7.23.6
-      solid-js: 1.8.11
+      solid-js: 1.8.12
     dev: true
 
   /source-map-js@1.0.2:
@@ -5309,7 +5309,7 @@ packages:
       - rollup
     dev: false
 
-  /vite-plugin-solid@2.8.3(@testing-library/jest-dom@6.2.1)(solid-js@1.8.11)(vite@5.0.12):
+  /vite-plugin-solid@2.8.3(@testing-library/jest-dom@6.2.1)(solid-js@1.8.12)(vite@5.0.12):
     resolution: {integrity: sha512-BpHrSSrrK8gqZQicOC2UvOX7UwNyNHx9rVyYKKqGhvfR9KGGumbJyCCkwCg/nWaA8uTA/NafIPvhDPL53sfsPg==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -5322,8 +5322,8 @@ packages:
       '@types/babel__core': 7.20.5
       babel-preset-solid: 1.8.9(@babel/core@7.23.7)
       merge-anything: 5.1.7
-      solid-js: 1.8.11
-      solid-refresh: 0.6.3(solid-js@1.8.11)
+      solid-js: 1.8.12
+      solid-refresh: 0.6.3(solid-js@1.8.12)
       vite: 5.0.12(@types/node@20.11.5)
       vitefu: 0.2.5(vite@5.0.12)
     transitivePeerDependencies:
