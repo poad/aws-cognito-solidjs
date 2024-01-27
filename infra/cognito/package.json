@@ -18,11 +18,11 @@
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.131",
+    "@types/aws-lambda": "^8.10.132",
     "@types/node": "^20.11.7",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
-    "aws-cdk": "^2.123.0",
+    "aws-cdk": "^2.124.0",
     "esbuild": "^0.19.12",
     "eslint": "^8.56.0",
     "eslint-config-import": "^0.13.0",
@@ -37,8 +37,8 @@
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^1.18.0",
-    "@aws-sdk/client-cognito-identity-provider": "^3.499.0",
-    "aws-cdk-lib": "^2.123.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.501.0",
+    "aws-cdk-lib": "^2.124.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
