@@ -11,8 +11,8 @@ importers:
   app:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.11.0
-        version: 0.11.0(solid-js@1.8.12)
+        specifier: ^0.11.2
+        version: 0.11.2(solid-js@1.8.12)
       aws-amplify:
         specifier: ^6.0.13
         version: 6.0.13
@@ -42,8 +42,8 @@ importers:
         specifier: ^1.18.0
         version: 1.18.0
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.504.0
-        version: 3.504.0
+        specifier: ^3.505.0
+        version: 3.505.0
       aws-cdk-lib:
         specifier: ^2.125.0
         version: 2.125.0(constructs@10.3.0)
@@ -285,7 +285,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.502.0
       tslib: 2.6.2
     dev: false
 
@@ -306,7 +306,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.502.0
       '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     dev: false
@@ -327,8 +327,8 @@ packages:
       lodash.merge: 4.6.2
     dev: false
 
-  /@aws-sdk/client-cognito-identity-provider@3.504.0:
-    resolution: {integrity: sha512-853CrkgbnpO1RzEDJBj9nE7mDMEET2+pOpPV/3f6Eamzf2Ff1nSr1bNVfXfeeK8UCB2BB5P+SP+zUTjJw8Mcpg==}
+  /@aws-sdk/client-cognito-identity-provider@3.505.0:
+    resolution: {integrity: sha512-p4pg/7WFaHHZmkA1HThZOYe8cqVDbvFqmHd+ahWsFiZ08F5FBmXZ9CbEIxQt4Vme5tPBsC0ZoYpcKK/1ZYXhiA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -413,7 +413,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -460,7 +460,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       '@smithy/util-waiter': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -505,7 +505,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -596,7 +596,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -685,7 +685,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1108,7 +1108,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.1.1
       '@smithy/util-defaults-mode-node': 2.1.1
       '@smithy/util-retry': 2.1.1
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.1.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -2559,8 +2559,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@solidjs/router@0.11.0(solid-js@1.8.12):
-    resolution: {integrity: sha512-UWCzTdjE06K4jfx7I1BEkPUOelM4bK0X54lLGd2OyVvqSktpsnOy5hwtn1PeLLmBev9NOsmiLv1kp/y9eMgztA==}
+  /@solidjs/router@0.11.2(solid-js@1.8.12):
+    resolution: {integrity: sha512-fhhq6IR2hDKPGrD8rHp7C3/Lqf2dkuVtdFIbu0yiJKNqV/od3LVUEew3kDuOOdheUK31Fapm6alMtjatSNR88g==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
