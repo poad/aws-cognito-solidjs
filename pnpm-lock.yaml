@@ -11,8 +11,8 @@ importers:
   app:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.11.3
-        version: 0.11.3(solid-js@1.8.14)
+        specifier: ^0.11.4
+        version: 0.11.4(solid-js@1.8.14)
       aws-amplify:
         specifier: ^6.0.15
         version: 6.0.15
@@ -2559,8 +2559,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@solidjs/router@0.11.3(solid-js@1.8.14):
-    resolution: {integrity: sha512-clSgyvzNnAw5iwnqHFNdzvvgt1eHbg81hu3A7H/qYz0+J5D0XIk7oqaOI7SRWCTnV8Rg9q4K83VV4foCOb+jcw==}
+  /@solidjs/router@0.11.4(solid-js@1.8.14):
+    resolution: {integrity: sha512-7dK3y/Yp2e8vzwRFt7XqVDqHMUsWfNjq9C1ZEoeiGov0rp9sgvJcQwuLrO5si/TdozQ1MoX+k0X/UDSIfyW7Hg==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
