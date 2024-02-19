@@ -11,8 +11,8 @@ importers:
   app:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.12.2
-        version: 0.12.2(solid-js@1.8.15)
+        specifier: ^0.12.3
+        version: 0.12.3(solid-js@1.8.15)
       aws-amplify:
         specifier: ^6.0.16
         version: 6.0.16
@@ -58,8 +58,8 @@ importers:
         version: 0.5.21
     devDependencies:
       '@types/aws-lambda':
-        specifier: ^8.10.133
-        version: 8.10.133
+        specifier: ^8.10.134
+        version: 8.10.134
       '@types/node':
         specifier: ^20.11.19
         version: 20.11.19
@@ -2547,8 +2547,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@solidjs/router@0.12.2(solid-js@1.8.15):
-    resolution: {integrity: sha512-/bhnjmQLVGXiCjU5vmZ0sE4rs5WKFLrimeofiVNy1SpZeKTtVphfHcuphLlXK1z7ZVx0zHrZi6DE+RF59qM8AQ==}
+  /@solidjs/router@0.12.3(solid-js@1.8.15):
+    resolution: {integrity: sha512-s5HunmOt5BXt514kHD9aDbiQ6la33297h9XKUGuMKpzJD1wgXhWTm+HmtG3SXirRfGc0UJ3yDDhNoAD8b2Om1w==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
@@ -2571,8 +2571,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/aws-lambda@8.10.133:
-    resolution: {integrity: sha512-sr852MAL/79rjDelXP6ZuJ6GwOvXIRrFAoC8a+w91mZ5XR71CuzSgo1d0+pG1qgfPhjFgaibu7SWaoC5BA7pyQ==}
+  /@types/aws-lambda@8.10.134:
+    resolution: {integrity: sha512-cfv422ivDMO+EeA3N4YcshbTHBL+5lLXe+Uz+4HXvIcsCuWvqNFpOs28ZprL8NA3qRCzt95ETiNAJDn4IcC/PA==}
     dev: true
 
   /@types/babel__core@7.20.5:
