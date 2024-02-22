@@ -21,7 +21,7 @@ importers:
         version: 1.8.15
       vite-plugin-node-polyfills:
         specifier: ^0.21.0
-        version: 0.21.0(vite@5.1.3)
+        version: 0.21.0(vite@5.1.4)
     devDependencies:
       '@types/node':
         specifier: ^20.11.19
@@ -30,11 +30,11 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       vite:
-        specifier: ^5.1.3
-        version: 5.1.3(@types/node@20.11.19)
+        specifier: ^5.1.4
+        version: 5.1.4(@types/node@20.11.19)
       vite-plugin-solid:
         specifier: ^2.10.1
-        version: 2.10.1(solid-js@1.8.15)(vite@5.1.3)
+        version: 2.10.1(solid-js@1.8.15)(vite@5.1.4)
 
   infra/cognito:
     dependencies:
@@ -45,8 +45,8 @@ importers:
         specifier: ^3.515.0
         version: 3.515.0
       aws-cdk-lib:
-        specifier: ^2.128.0
-        version: 2.128.0(constructs@10.3.0)
+        specifier: ^2.129.0
+        version: 2.129.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -70,8 +70,8 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2(eslint@8.56.0)(typescript@5.3.3)
       aws-cdk:
-        specifier: ^2.128.0
-        version: 2.128.0
+        specifier: ^2.129.0
+        version: 2.129.0
       esbuild:
         specifier: ^0.20.1
         version: 0.20.1
@@ -2945,8 +2945,8 @@ packages:
       - aws-crt
     dev: false
 
-  /aws-cdk-lib@2.128.0(constructs@10.3.0):
-    resolution: {integrity: sha512-cAU1L4jtPXPQXpa9kS2/HhHdkg3xGc5GCqwRgivdoj/iLQF3dDwIouOkwDBY/S5pXMqOUC7IoVdIPPbIgfGlsQ==}
+  /aws-cdk-lib@2.129.0(constructs@10.3.0):
+    resolution: {integrity: sha512-EM3zInM95YN0CM9XWmnFPlfZnXbRCm639OUeKEd1YiSGS+LW+Jbs5lSpIaXyFCR4sUXFYa6ZfaH917Gkf3yxrw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -2968,8 +2968,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.128.0:
-    resolution: {integrity: sha512-epOAr/0WKqmyaKqBc7N0Ky5++93pu+v6yVN9jNOa4JYkAkGbeTS3vR9bj/W0o94jnlgWevG3HNHr83jtRvw/4A==}
+  /aws-cdk@2.129.0:
+    resolution: {integrity: sha512-Gh/dG2aY0cvlLumYUXalg28/knVI/TrN6NZMBpRWe4gGJe/RH5JROIVB2GOEMMajkew9EiFH0ZeoC+pQ57diaQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -5418,19 +5418,19 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-node-polyfills@0.21.0(vite@5.1.3):
+  /vite-plugin-node-polyfills@0.21.0(vite@5.1.4):
     resolution: {integrity: sha512-Sk4DiKnmxN8E0vhgEhzLudfJQfaT8k4/gJ25xvUPG54KjLJ6HAmDKbr4rzDD/QWEY+Lwg80KE85fGYBQihEPQA==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       '@rollup/plugin-inject': 5.0.5
       node-stdlib-browser: 1.2.0
-      vite: 5.1.3(@types/node@20.11.19)
+      vite: 5.1.4(@types/node@20.11.19)
     transitivePeerDependencies:
       - rollup
     dev: false
 
-  /vite-plugin-solid@2.10.1(solid-js@1.8.15)(vite@5.1.3):
+  /vite-plugin-solid@2.10.1(solid-js@1.8.15)(vite@5.1.4):
     resolution: {integrity: sha512-kfVdNLWaJqaJVL52U6iCCKNW/nXE7bS1VVGOWPGllOkJfcNILymVSY0LCBLSnyy0iYnRtrXpiHm14rMuzeC7CA==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -5446,14 +5446,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.15
       solid-refresh: 0.6.3(solid-js@1.8.15)
-      vite: 5.1.3(@types/node@20.11.19)
-      vitefu: 0.2.5(vite@5.1.3)
+      vite: 5.1.4(@types/node@20.11.19)
+      vitefu: 0.2.5(vite@5.1.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.3(@types/node@20.11.19):
-    resolution: {integrity: sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==}
+  /vite@5.1.4(@types/node@20.11.19):
+    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5487,7 +5487,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@5.1.3):
+  /vitefu@0.2.5(vite@5.1.4):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -5495,7 +5495,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.3(@types/node@20.11.19)
+      vite: 5.1.4(@types/node@20.11.19)
     dev: true
 
   /vm-browserify@1.1.2:
