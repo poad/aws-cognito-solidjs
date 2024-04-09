@@ -3,20 +3,24 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
+    "prettier:check": "prettier --check src",
+    "prettier:fix": "prettier --write src",
+    "lint": "pnpm run --parallel /^.*:check/",
+    "lint-fix": "pnpm run /^.*:fix/",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.12.6",
+    "@types/node": "^20.12.7",
     "typescript": "^5.4.4",
     "vite": "^5.2.8",
     "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
     "@solidjs/router": "^0.13.1",
-    "aws-amplify": "^6.0.27",
+    "aws-amplify": "^6.0.28",
     "solid-js": "^1.8.16",
     "vite-plugin-node-polyfills": "^0.21.0"
   }

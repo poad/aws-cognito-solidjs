@@ -1,10 +1,10 @@
 import { signInWithRedirect } from "aws-amplify/auth";
-import { ConsoleLogger } from 'aws-amplify/utils';
+import { ConsoleLogger } from "aws-amplify/utils";
 
 import { type JSX } from "solid-js/jsx-runtime";
 
 export const SignInButton = (): JSX.Element => {
-  const logger = new ConsoleLogger('SignInButton');
+  const logger = new ConsoleLogger("SignInButton");
 
   const idpName = import.meta.env.VITE_FEDERATION_TARGET;
 
