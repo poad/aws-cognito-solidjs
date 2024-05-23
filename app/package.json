@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.13.3",
-    "aws-amplify": "^6.3.2",
+    "aws-amplify": "^6.3.3",
     "solid-js": "^1.8.17",
     "vite-plugin-node-polyfills": "^0.22.0"
   }
