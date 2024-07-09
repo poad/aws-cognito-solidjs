@@ -1,17 +1,13 @@
-import eslintConfigPrettier from 'eslint-config-prettier';
-import eslintImport from "eslint-plugin-import";
-import typeScriptESLintParser from '@typescript-eslint/parser';
+// @ts-check
 import solid from 'eslint-plugin-solid';
-import typeScriptESLint from '@typescript-eslint/eslint-plugin';
+import tseslint from 'typescript-eslint';
+import eslintConfigPrettier from "eslint-config-prettier";
 
-export default [
+export default tseslint.config(
   {
-    plugins: {
-      eslintImport,
-    },
-    rules: {
-      "eslintImport/default": "error",
-    },
+    ignores: [
+      '**/*.js'
+    ],
   },
   {
     rules: {
@@ -20,7 +16,7 @@ export default [
   },
   {
     plugins: {
-      typeScriptESLint,
+      tseslint: tseslint.plugin,
       solid,
     },
     languageOptions: {
@@ -28,12 +24,14 @@ export default [
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly'
       },
-      parser: typeScriptESLintParser,
+      parser: tseslint.parser,
     },
     linterOptions: {
       noInlineConfig: true,
       reportUnusedDisableDirectives: true,
     },
   },
+  ...tseslint.configs.recommended,
+  // @ts-ignore
   eslintConfigPrettier,
-];
+);
