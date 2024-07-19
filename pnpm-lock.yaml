@@ -137,8 +137,8 @@ packages:
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
 
-  '@aws-amplify/data-schema@1.3.7':
-    resolution: {integrity: sha512-9LVuB8+NX4IwwSX5jVtnuJ9oYpzfBSvrtpJQSOSHWXOszB2QN2VZsQNjTqKKV50RDfR7BQKb5HpT8VF6GIMBmg==}
+  '@aws-amplify/data-schema@1.3.8':
+    resolution: {integrity: sha512-hTkcJIP3Zxwti+TsMRTxQ1Qknv7y80Z2QJML6htZvcSPjlKtxwoEGNtRTS8j7RiVt1rEbOZoQ0g3/1GKWsNTxg==}
 
   '@aws-amplify/datastore@5.0.40':
     resolution: {integrity: sha512-QEut+HOIrNkwT/Pder2LzTkOMxzIEoJ2JKi/hS/A2VIJFY9KXC7Vx1b+XbtZloWTYYgpr4UYW35bpjIP3CJg8Q==}
@@ -1748,8 +1748,8 @@ packages:
     resolution: {integrity: sha512-ArzcM/II1wCCujdCNyQjXrAFwS4mrLh4C7DZWlaI8mdh7h3BfKdNd3bKXITfl2PT9FtfQqaGvhi1vPRQPimjGA==}
     engines: {node: '>=10'}
 
-  electron-to-chromium@1.4.829:
-    resolution: {integrity: sha512-5qp1N2POAfW0u1qGAxXEtz6P7bO1m6gpZr5hdf5ve6lxpLM7MpiM4jIPz7xcrNlClQMafbyUDDWjlIQZ1Mw0Rw==}
+  electron-to-chromium@1.4.830:
+    resolution: {integrity: sha512-TrPKKH20HeN0J1LHzsYLs2qwXrp8TF4nHdu4sq61ozGbzMpWhI7iIOPYPPkxeq1azMT9PZ8enPFcftbs/Npcjg==}
 
   elliptic@6.5.6:
     resolution: {integrity: sha512-mpzdtpeCLuS3BmE3pO3Cpp5bbjlOPY2Q0PgoF+Od1XZrHLYI28Xe3ossCmYCQt11FQKEYd9+PF8jymTvtWJSHQ==}
@@ -2019,8 +2019,8 @@ packages:
     resolution: {integrity: sha512-g0QYk1dZBxGwk+Ngc+ltRH2IBp2f7zBkBMBJZCDerh6EhlhSR6+9irMCuT/09zD6qkarHUSn529sK/yL4S27mg==}
     engines: {node: '>= 0.4'}
 
-  get-tsconfig@4.7.5:
-    resolution: {integrity: sha512-ZCuZCnlqNzjb4QprAzXKdpp/gh6KTxSJuw3IBsPnV/7fV4NxC9ckB+vPTt8w7fJA0TaSD7c55BR47JD6MEDyDw==}
+  get-tsconfig@4.7.6:
+    resolution: {integrity: sha512-ZAqrLlu18NbDdRaHq+AKXzAmqIUPswPWKUchfytdAjiRFnCe5ojG2bstg6mRiZabkKfCoL/e98pbBELIV/YCeA==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -2976,7 +2976,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.38(@aws-amplify/core@6.3.5)
       '@aws-amplify/core': 6.3.5
-      '@aws-amplify/data-schema': 1.3.7
+      '@aws-amplify/data-schema': 1.3.8
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -3017,7 +3017,7 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.3.7':
+  '@aws-amplify/data-schema@1.3.8':
     dependencies:
       '@aws-amplify/data-schema-types': 1.1.1
       '@types/aws-lambda': 8.10.141
@@ -3057,7 +3057,7 @@ snapshots:
   '@aws-crypto/crc32@3.0.0':
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.398.0
       tslib: 1.14.1
 
   '@aws-crypto/ie11-detection@3.0.0':
@@ -3070,7 +3070,7 @@ snapshots:
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.398.0
       '@aws-sdk/util-locate-window': 3.568.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
@@ -3088,7 +3088,7 @@ snapshots:
   '@aws-crypto/sha256-js@3.0.0':
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.398.0
       tslib: 1.14.1
 
   '@aws-crypto/sha256-js@5.2.0':
@@ -3107,7 +3107,7 @@ snapshots:
 
   '@aws-crypto/util@3.0.0':
     dependencies:
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.398.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -3206,7 +3206,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
@@ -3250,7 +3250,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       '@smithy/util-waiter': 2.2.0
       tslib: 2.6.3
     transitivePeerDependencies:
@@ -3292,7 +3292,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
@@ -3375,7 +3375,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
@@ -3459,7 +3459,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       fast-xml-parser: 4.2.5
       tslib: 2.6.3
     transitivePeerDependencies:
@@ -3787,7 +3787,7 @@ snapshots:
       '@smithy/util-defaults-mode-browser': 2.2.1
       '@smithy/util-defaults-mode-node': 2.3.1
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
@@ -5212,7 +5212,7 @@ snapshots:
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001642
-      electron-to-chromium: 1.4.829
+      electron-to-chromium: 1.4.830
       node-releases: 2.0.17
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
@@ -5396,7 +5396,7 @@ snapshots:
 
   domain-browser@4.23.0: {}
 
-  electron-to-chromium@1.4.829: {}
+  electron-to-chromium@1.4.830: {}
 
   elliptic@6.5.6:
     dependencies:
@@ -5567,7 +5567,7 @@ snapshots:
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.16.1(eslint@9.7.0)(typescript@5.5.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.16.1(eslint@9.7.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1)(eslint@9.7.0))(eslint@9.7.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.1(eslint@9.7.0)(typescript@5.5.3))(eslint-import-resolver-typescript@3.6.1)(eslint@9.7.0)
       fast-glob: 3.3.2
-      get-tsconfig: 4.7.5
+      get-tsconfig: 4.7.6
       is-core-module: 2.15.0
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -5808,7 +5808,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
 
-  get-tsconfig@4.7.5:
+  get-tsconfig@4.7.6:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
