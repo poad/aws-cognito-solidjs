@@ -15,12 +15,12 @@
   "devDependencies": {
     "@types/node": "^22.1.0",
     "typescript": "^5.5.4",
-    "vite": "^5.3.5",
+    "vite": "^5.4.0",
     "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
     "@solidjs/router": "^0.14.1",
-    "aws-amplify": "^6.4.4",
+    "aws-amplify": "^6.5.0",
     "solid-js": "^1.8.19",
     "vite-plugin-node-polyfills": "^0.22.0"
   }
