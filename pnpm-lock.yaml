@@ -42,27 +42,27 @@ importers:
         specifier: ^0.14.3
         version: 0.14.3(solid-js@1.8.21)
       aws-amplify:
-        specifier: ^6.5.1
-        version: 6.5.1
+        specifier: ^6.5.2
+        version: 6.5.2
       solid-js:
         specifier: ^1.8.21
         version: 1.8.21
       vite-plugin-node-polyfills:
         specifier: ^0.22.0
-        version: 0.22.0(rollup@4.21.0)(vite@5.4.2(@types/node@22.4.2))
+        version: 0.22.0(rollup@4.21.0)(vite@5.4.2(@types/node@22.5.0))
     devDependencies:
       '@types/node':
-        specifier: ^22.4.2
-        version: 22.4.2
+        specifier: ^22.5.0
+        version: 22.5.0
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
       vite:
         specifier: ^5.4.2
-        version: 5.4.2(@types/node@22.4.2)
+        version: 5.4.2(@types/node@22.5.0)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.2))
+        version: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0))
 
   infra/cognito:
     dependencies:
@@ -73,8 +73,8 @@ importers:
         specifier: ^3.635.0
         version: 3.635.0
       aws-cdk-lib:
-        specifier: ^2.153.0
-        version: 2.153.0(constructs@10.3.0)
+        specifier: ^2.154.0
+        version: 2.154.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -89,17 +89,17 @@ importers:
         specifier: ^8.10.143
         version: 8.10.143
       '@types/node':
-        specifier: ^22.4.2
-        version: 22.4.2
+        specifier: ^22.5.0
+        version: 22.5.0
       aws-cdk:
-        specifier: ^2.153.0
-        version: 2.153.0
+        specifier: ^2.154.0
+        version: 2.154.0
       esbuild:
         specifier: ^0.23.1
         version: 0.23.1
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.4.2)(typescript@5.5.4)
+        version: 10.9.2(@types/node@22.5.0)(typescript@5.5.4)
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
@@ -110,29 +110,29 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@aws-amplify/analytics@7.0.43':
-    resolution: {integrity: sha512-oKjZ8dggMuMLJanlQgRrrkBJqSPmhf8ZxYi3yA/Rbksn/Uq7dChwlQfaJnNiVrgU5vG1oXFWwPvEJTHGIynzcQ==}
+  '@aws-amplify/analytics@7.0.44':
+    resolution: {integrity: sha512-P+AFKisNzadCzrKq58Cbo21JpcEiEvHg+EiE+PNdm2J5yVxS+k/zDLWb42CyzVEOXdekG0dqYKQqLLiFR2gMFg==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api-graphql@4.1.14':
-    resolution: {integrity: sha512-CvWrEP9XGbm5cagI+pld3YOLjPQbhXSUQNpWpWO0avUCWlWjtcMprbl/g7DA5VOpxHRxGzIvd1hGy2R4QstPqQ==}
+  '@aws-amplify/api-graphql@4.1.15':
+    resolution: {integrity: sha512-4LJBXDu4SJwZf5CBvmfDq7LUgmFJpWWVf0dC8jTpcHR8Dr4ajFP2HgefqqHJn+WFlZDAFcYHxl0pWEZYp/jybg==}
 
-  '@aws-amplify/api-rest@4.0.43':
-    resolution: {integrity: sha512-05oyAD/8r8eSjuJ5IO7XXmssyMmqMNUM9b6I/O6+0cxNg169y9qrkvEvmqYm+zK8LFHy8GEZ5M+erxBXoHe3Pg==}
+  '@aws-amplify/api-rest@4.0.44':
+    resolution: {integrity: sha512-3kVDthcHQ2+SOm4D64irT3CMRebpDzKxxgH/sG4IoAipSU+6Mcpz2Pb0a2JIinEZhbZNEi78/omRWcDEYwPNiQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api@6.0.45':
-    resolution: {integrity: sha512-dndnJ8AQ7kOE//UScGbOZMp24sOyecTs3VvsXQXWGmi6MSDzjEuZdLZLwI5RLG4p9zsVoDneuFMZJqnE9O12Wg==}
+  '@aws-amplify/api@6.0.46':
+    resolution: {integrity: sha512-OL3wdTuhELtVbbTyyIGOYI3z2X7DFYMIWfgr4m8M/Sm6tj4rMRzQeoeeLRIcfBRICzdwQdxVCoOJmHR6nrJMmQ==}
 
-  '@aws-amplify/auth@6.3.14':
-    resolution: {integrity: sha512-GKG6vHnGcfKrIwa/JXah2vVVqBiWIgkdcyQt+4D5dwFHeK9Ozyd7hIL4c77LFZ4ObQDFFFW1U/XlHuR1i8quNQ==}
+  '@aws-amplify/auth@6.3.15':
+    resolution: {integrity: sha512-zS+iuQsZoOPl2QeQFBerBmizorwbxp/DV6neah8eztxC9MS7kztM+J5TaIJweR/+Vf3zKZJBCqnGcqXKUEyUrw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/core@6.3.10':
-    resolution: {integrity: sha512-lvaM/ead3Eaoc4SXUf3S6dMlzERRo9yAh6etfFVNAbKLYWFl3JTf53wFVL/XmhRfWk7G1ZjlGSQ442RT/G/H+g==}
+  '@aws-amplify/core@6.3.11':
+    resolution: {integrity: sha512-Y0Ms8wEIhRHpdsLrfx1CgpvsL2GXxwtWRdY8+d0zPL03aWBKtH3NT1O0iWBoHl33xngEvWwdu8NX93bZqhzm8g==}
 
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
@@ -140,18 +140,18 @@ packages:
   '@aws-amplify/data-schema@1.3.10':
     resolution: {integrity: sha512-rUo6wb+DO6aGCSeSiB8wb92O4cEuN4sZBXn7TgqaYc8Bv4HutrLaIlptgXCYJMkaAp/h9rxyi6wIFJ7bEyD/6g==}
 
-  '@aws-amplify/datastore@5.0.45':
-    resolution: {integrity: sha512-ck2dHQN2AONjNBg8Olpa3gcg4VNIYNZTLrnY1fXTIOJGy+j7VaIU4+OoINkrx3dymnEwY0LgCkaHv8Y7yYmYGw==}
+  '@aws-amplify/datastore@5.0.46':
+    resolution: {integrity: sha512-0cVpHyRoXJkxVQwCyS9V5rWBkVP7tliOe9g7jwwiD8NmtcfQPeAcaUDuj2eGjUBgNLAstidJkdjHmMvMi/KyMA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/notifications@2.0.43':
-    resolution: {integrity: sha512-oOuJBy/LfkkMoLGpNLocthay5GKWcnpWKQieQRa2/0AUD2PpQnw+VyXLNDTGC8c6+wVEbIHEwsnZZbivLPk9wQ==}
+  '@aws-amplify/notifications@2.0.44':
+    resolution: {integrity: sha512-tFoJTKJAmwy+Jn2MNzn/3Rq5CqebWqVUEIHaPNLN/Cqx035EOlFEp78fxe1V/S+LaFjCipWA2JuAHsh2DsZnbw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/storage@6.6.1':
-    resolution: {integrity: sha512-Ew+TGm9zSua/Kw0/Q/rAl+m//6QlIDyiBkFXgHvO7KH0apYKz+1ZXNeF9gIyyUHnjmLj7DqVYH8Ek8pgFp+sCw==}
+  '@aws-amplify/storage@6.6.2':
+    resolution: {integrity: sha512-8GS7/mltRLVIbiq3sRasHtRtkKCxC5vDROt3J/ZrMmICGJhr07frh3IzGi3Q6/PxrIe2Kkg9XBqYsZULhhW7Og==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
@@ -163,6 +163,13 @@ packages:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3':
     resolution: {integrity: sha512-twhuEG+JPOYCYPx/xy5uH2+VUsIEhPTzDY0F1KuB+ocjWWB/KEDiOVL19nHvbPCB6fhWnkykXEMJ4HHcKvjtvg==}
+
+  '@aws-cdk/cloud-assembly-schema@36.0.14':
+    resolution: {integrity: sha512-8ecWc6vjOXzQjFuzLOX4L28u8ZQn13vNOd6N2cYu26+LuZHoxZAIyyITldLNazxbiqJ1aNSsa++GlvO/wEpGjQ==}
+    engines: {node: '>= 18.18.0'}
+    bundledDependencies:
+      - jsonschema
+      - semver
 
   '@aws-crypto/crc32@5.2.0':
     resolution: {integrity: sha512-nLbCWqQNgUiwwtFsen1AdzAtvuLRsQS8rYgMuxCrdKf9kOssamGLuPwyTY9wyYblNr9+1XM8v6zoDTPPSIeANg==}
@@ -1156,8 +1163,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.4.2':
-    resolution: {integrity: sha512-nAvM3Ey230/XzxtyDcJ+VjvlzpzoHwLsF7JaDRfoI0ytO0mVheerNmM45CtA0yOILXwXXxOrcUWH3wltX+7PSw==}
+  '@types/node@22.5.0':
+    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -1295,11 +1302,11 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.5.1:
-    resolution: {integrity: sha512-kg9KkDv+cV8ZVCZx9nDnsuigif4aeUya7VOp7LgS9I/QkcZASfcE6fq26fx+fHVc1qswwqC6tv6D4k25nSl9KQ==}
+  aws-amplify@6.5.2:
+    resolution: {integrity: sha512-j5BSkGB19mNIzTuK1q99xjgR80FlwBYrynvqyabeAS7dO1AxqEPbJIB2j8NrjI10dHYktosn0wRLrvZpGRGLBQ==}
 
-  aws-cdk-lib@2.153.0:
-    resolution: {integrity: sha512-wj8NnZb/F/SZGz7SqMgXL5eAu4CkJdjUIzDDXh16Fdo7vE8o59qFGZz8m0vA4aTXG10jtWxnJwAfoQPgzXqFCw==}
+  aws-cdk-lib@2.154.0:
+    resolution: {integrity: sha512-r6WmN+pk0k328Ig7yn9tqst5QR4XmyMCUG2artMgzA1YfDd4nDaP9zgJlHXIMOfVRbhgoCBX1XSSqLtN5Losgg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1316,8 +1323,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.153.0:
-    resolution: {integrity: sha512-cBP+K9/BH0VpkNkm61c/1UCdY7MCUXxRTEUYT1TNDSR9rJQPseaeKWNwtt31KxvT6xbgoskh0NTOpy7t+bqWUw==}
+  aws-cdk@2.154.0:
+    resolution: {integrity: sha512-Py4nbE7GJj37iB7B4bUs8s9XOHDUVJBuJgYmUJFZ9Sz4SLpZGiDJLdtaBBOYl/rGSIrMUIfkBQLvHjhUtKplTw==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -2764,9 +2771,9 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@aws-amplify/analytics@7.0.43(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/analytics@7.0.44(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/core': 6.3.11
       '@aws-sdk/client-firehose': 3.621.0
       '@aws-sdk/client-kinesis': 3.621.0
       '@aws-sdk/client-personalize-events': 3.621.0
@@ -2775,10 +2782,10 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.1.14':
+  '@aws-amplify/api-graphql@4.1.15':
     dependencies:
-      '@aws-amplify/api-rest': 4.0.43(@aws-amplify/core@6.3.10)
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/api-rest': 4.0.44(@aws-amplify/core@6.3.11)
+      '@aws-amplify/core': 6.3.11
       '@aws-amplify/data-schema': 1.3.10
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
@@ -2786,25 +2793,25 @@ snapshots:
       tslib: 2.6.3
       uuid: 9.0.1
 
-  '@aws-amplify/api-rest@4.0.43(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/api-rest@4.0.44(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/core': 6.3.11
       tslib: 2.6.3
 
-  '@aws-amplify/api@6.0.45(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/api@6.0.46(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.1.14
-      '@aws-amplify/api-rest': 4.0.43(@aws-amplify/core@6.3.10)
+      '@aws-amplify/api-graphql': 4.1.15
+      '@aws-amplify/api-rest': 4.0.44(@aws-amplify/core@6.3.11)
       tslib: 2.6.3
     transitivePeerDependencies:
       - '@aws-amplify/core'
 
-  '@aws-amplify/auth@6.3.14(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/auth@6.3.15(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/core': 6.3.11
       tslib: 2.6.3
 
-  '@aws-amplify/core@6.3.10':
+  '@aws-amplify/core@6.3.11':
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -2826,25 +2833,25 @@ snapshots:
       '@types/aws-lambda': 8.10.143
       rxjs: 7.8.1
 
-  '@aws-amplify/datastore@5.0.45(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/datastore@5.0.46(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/api': 6.0.45(@aws-amplify/core@6.3.10)
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/api': 6.0.46(@aws-amplify/core@6.3.11)
+      '@aws-amplify/core': 6.3.11
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
       rxjs: 7.8.1
       ulid: 2.3.0
 
-  '@aws-amplify/notifications@2.0.43(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/notifications@2.0.44(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/core': 6.3.11
       lodash: 4.17.21
       tslib: 2.6.3
 
-  '@aws-amplify/storage@6.6.1(@aws-amplify/core@6.3.10)':
+  '@aws-amplify/storage@6.6.2(@aws-amplify/core@6.3.11)':
     dependencies:
-      '@aws-amplify/core': 6.3.10
+      '@aws-amplify/core': 6.3.11
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
@@ -2856,6 +2863,8 @@ snapshots:
   '@aws-cdk/asset-kubectl-v20@2.1.2': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3': {}
+
+  '@aws-cdk/cloud-assembly-schema@36.0.14': {}
 
   '@aws-crypto/crc32@5.2.0':
     dependencies:
@@ -4426,7 +4435,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.4.2':
+  '@types/node@22.5.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -4616,27 +4625,28 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.5.1:
+  aws-amplify@6.5.2:
     dependencies:
-      '@aws-amplify/analytics': 7.0.43(@aws-amplify/core@6.3.10)
-      '@aws-amplify/api': 6.0.45(@aws-amplify/core@6.3.10)
-      '@aws-amplify/auth': 6.3.14(@aws-amplify/core@6.3.10)
-      '@aws-amplify/core': 6.3.10
-      '@aws-amplify/datastore': 5.0.45(@aws-amplify/core@6.3.10)
-      '@aws-amplify/notifications': 2.0.43(@aws-amplify/core@6.3.10)
-      '@aws-amplify/storage': 6.6.1(@aws-amplify/core@6.3.10)
+      '@aws-amplify/analytics': 7.0.44(@aws-amplify/core@6.3.11)
+      '@aws-amplify/api': 6.0.46(@aws-amplify/core@6.3.11)
+      '@aws-amplify/auth': 6.3.15(@aws-amplify/core@6.3.11)
+      '@aws-amplify/core': 6.3.11
+      '@aws-amplify/datastore': 5.0.46(@aws-amplify/core@6.3.11)
+      '@aws-amplify/notifications': 2.0.44(@aws-amplify/core@6.3.11)
+      '@aws-amplify/storage': 6.6.2(@aws-amplify/core@6.3.11)
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.153.0(constructs@10.3.0):
+  aws-cdk-lib@2.154.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
+      '@aws-cdk/cloud-assembly-schema': 36.0.14
       constructs: 10.3.0
 
-  aws-cdk@2.153.0:
+  aws-cdk@2.154.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -6094,14 +6104,14 @@ snapshots:
     dependencies:
       typescript: 5.5.4
 
-  ts-node@10.9.2(@types/node@22.4.2)(typescript@5.5.4):
+  ts-node@10.9.2(@types/node@22.5.0)(typescript@5.5.4):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.4.2
+      '@types/node': 22.5.0
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -6221,15 +6231,15 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-node-polyfills@0.22.0(rollup@4.21.0)(vite@5.4.2(@types/node@22.4.2)):
+  vite-plugin-node-polyfills@0.22.0(rollup@4.21.0)(vite@5.4.2(@types/node@22.5.0)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.21.0)
       node-stdlib-browser: 1.2.0
-      vite: 5.4.2(@types/node@22.4.2)
+      vite: 5.4.2(@types/node@22.5.0)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.2)):
+  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0)):
     dependencies:
       '@babel/core': 7.25.2
       '@types/babel__core': 7.20.5
@@ -6237,23 +6247,23 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.8.21
       solid-refresh: 0.6.3(solid-js@1.8.21)
-      vite: 5.4.2(@types/node@22.4.2)
-      vitefu: 0.2.5(vite@5.4.2(@types/node@22.4.2))
+      vite: 5.4.2(@types/node@22.5.0)
+      vitefu: 0.2.5(vite@5.4.2(@types/node@22.5.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.2(@types/node@22.4.2):
+  vite@5.4.2(@types/node@22.5.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 22.4.2
+      '@types/node': 22.5.0
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.2(@types/node@22.4.2)):
+  vitefu@0.2.5(vite@5.4.2(@types/node@22.5.0)):
     optionalDependencies:
-      vite: 5.4.2(@types/node@22.4.2)
+      vite: 5.4.2(@types/node@22.5.0)
 
   vm-browserify@1.1.2: {}
 
