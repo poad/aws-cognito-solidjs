@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.5.0",
+    "@types/node": "^22.5.1",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
     "vite-plugin-solid": "^2.10.2"
@@ -21,7 +21,7 @@
   "dependencies": {
     "@solidjs/router": "^0.14.3",
     "aws-amplify": "^6.5.3",
-    "solid-js": "^1.8.21",
+    "solid-js": "^1.8.22",
     "vite-plugin-node-polyfills": "^0.22.0"
   }
 }
