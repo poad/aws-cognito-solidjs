@@ -70,8 +70,8 @@ importers:
         specifier: ^2.7.0
         version: 2.7.0
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.650.0
-        version: 3.650.0
+        specifier: ^3.651.0
+        version: 3.651.0
       aws-cdk-lib:
         specifier: ^2.158.0
         version: 2.158.0(constructs@10.3.0)
@@ -199,8 +199,8 @@ packages:
       '@middy/core':
         optional: true
 
-  '@aws-sdk/client-cognito-identity-provider@3.650.0':
-    resolution: {integrity: sha512-uX8XJVNIHCT0M3PpYM+cJJzhWMVQvUwh294x+WVpn22R/Bg5x1XLo9QVtWiVPhLcQCLN/kYzsz9n3uE5b7YozQ==}
+  '@aws-sdk/client-cognito-identity-provider@3.651.0':
+    resolution: {integrity: sha512-ghIZlEOFHb5TYzoWMlvupD0vvZpQaTMk9DPbtvwDs1EW6iegs/Y4eJVIGL+ITkiPS/86MlySvSw1hUZseiTXVQ==}
     engines: {node: '>=16.0.0'}
 
   '@aws-sdk/client-firehose@3.621.0':
@@ -2927,7 +2927,7 @@ snapshots:
   '@aws-crypto/crc32@5.2.0':
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.649.0
       tslib: 2.7.0
 
   '@aws-crypto/sha256-browser@5.2.0':
@@ -2963,7 +2963,7 @@ snapshots:
       '@aws-lambda-powertools/commons': 2.7.0
       lodash.merge: 4.6.2
 
-  '@aws-sdk/client-cognito-identity-provider@3.650.0':
+  '@aws-sdk/client-cognito-identity-provider@3.651.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
