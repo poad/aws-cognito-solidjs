@@ -42,8 +42,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(solid-js@1.8.22)
       aws-amplify:
-        specifier: ^6.6.1
-        version: 6.6.1
+        specifier: ^6.6.2
+        version: 6.6.2
       solid-js:
         specifier: ^1.8.22
         version: 1.8.22
@@ -110,29 +110,29 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@aws-amplify/analytics@7.0.48':
-    resolution: {integrity: sha512-1DJyIeaw4nZS1qS5w3+9WoCsRqOTiqLth1lzOvPo1F07RUB33v1stK775uqV2S9w738R+fSaaMx3dd6UiDfHxA==}
+  '@aws-amplify/analytics@7.0.49':
+    resolution: {integrity: sha512-+HLuvrbTAVhsMtMpwZuiGVULM7NqSoy6+gByi3NodZjMFvIQX6SvbZlGdDGjT5vYb8r3GSLRbgvGnf2VvfTTFA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api-graphql@4.3.1':
-    resolution: {integrity: sha512-vxlHpLzng37B1sgrQCRs54jvv7mdyMihBAcc2SYvMWcZjVBn0ll0Iqv0nSvK4Svi7SwuSnWBQc2edAxGao1hIQ==}
+  '@aws-amplify/api-graphql@4.3.2':
+    resolution: {integrity: sha512-izdaQOUMD/CuTY7eHI2ngjt2i80bMynNT63HueJszkeyc+N/eEl5qAQNRHx+VaVGiyGgiz82WxcEU6gfLKnvMA==}
 
-  '@aws-amplify/api-rest@4.0.48':
-    resolution: {integrity: sha512-VVzf4h72eAKO5pyqx4Y+vYYAJpU643lSZ/CEG9vPGPdv2ZjLJpzetqgbKbQLlgT96kk6IjWOE1Ydc8FTeTzSwQ==}
+  '@aws-amplify/api-rest@4.0.49':
+    resolution: {integrity: sha512-o2C/62yAvn/KvKDkvHUtMEroT6aG0YAEgjSWjkerURipHx0o5JvQVcTuKAvop7ZxnzV/RO+8qdSg/iI14kzZnw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api@6.0.50':
-    resolution: {integrity: sha512-VMV+KFnfMevNj+nv32vbWcOVgypFG6umLoJW3tW1TP10l/fsB8uFXK5I6AMU32wDSjYQTWraA2w8rcYwckh4gw==}
+  '@aws-amplify/api@6.0.51':
+    resolution: {integrity: sha512-p5jWW6saazLuJ+8TkXLB8O7ZGXMCuP9HArIt9o0jP+nDRBIqsRb5IQQb14DDQ8PkBfleKjKHeI69c246uTsKSA==}
 
-  '@aws-amplify/auth@6.4.1':
-    resolution: {integrity: sha512-kSDMzDKcOeMo69mR7PWPUvNrFq5EWn2T+bTB4w0btS/MkYKuAepEs/lSDizpDx0qqvNUF+FSjLH2fK3KGerzKw==}
+  '@aws-amplify/auth@6.4.2':
+    resolution: {integrity: sha512-Mfx5AW5RgM0qE9DuJNlFAl4yzFAN1nSxCuLvGrWpKUrcYDomy5I2zzETCxRcJvrb94qzg3aPHlooR8Lgl6t6qg==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/core@6.4.1':
-    resolution: {integrity: sha512-PcnnAkf/OUH+tLWIVaiB1CuG/c2/vIay2+innO+Yzj7yuL4TnT5ZmRwwPmJmkw6yAngwXSD7WTaiyhUIrgE8hQ==}
+  '@aws-amplify/core@6.4.2':
+    resolution: {integrity: sha512-kumvcxy8dk+L78MBjzfCrd+iVefliTvrbYskNFFbxbKCxUB7QavgALrVi31VXQxBW5YvImjAsS1qS7SY1YkYHQ==}
 
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
@@ -140,18 +140,18 @@ packages:
   '@aws-amplify/data-schema@1.6.0':
     resolution: {integrity: sha512-34b0yKx0ASWFh8tinthRzliZBGe1ht0xYBnWLJ5kYM872mXIiVMGyr5Xn2X/jxTVZRj7XSFvpYAUdAarlmqk/w==}
 
-  '@aws-amplify/datastore@5.0.50':
-    resolution: {integrity: sha512-ktdL7+XJ91Pf2re/vKvGf7Jmo25bB9H5IQwe8dxdpZfXRHfp+xJulWTJUKADi72JCKyjMpm9aVMq0qQ9eOL4QQ==}
+  '@aws-amplify/datastore@5.0.51':
+    resolution: {integrity: sha512-R4XAsmrT7psWnvgc6lr8hxbJwFd6iHgsiqazOH67h9tusgmIFAp+HEgKPV/sUrkT2aIEy8Ge7so5y1Tku70zBA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/notifications@2.0.48':
-    resolution: {integrity: sha512-e5Hby3ifM9+AjLbYDSffQfTH9aAjbK/HHp4fGRxXr/zOzBFc2o4pGUZgh2Jjf3fz23/DbH+6TSv7EvFCE2GGIw==}
+  '@aws-amplify/notifications@2.0.49':
+    resolution: {integrity: sha512-26+vgiCnugF3wGyVPzOFsc0BFC/nGf+70LpzsYrxLes4OaLq1cBVJgh7q6p9nT+qjsrmlVGwl0kU49OIyPx7xg==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/storage@6.6.6':
-    resolution: {integrity: sha512-7DGbWLHMU6aMDY6ED3ynj9/6OGZH9RdNqxxdoTvRRZgR8L1zqSj2uDBLvRY6pjRKOmJ55HEhxq0xpt+QD/zJCg==}
+  '@aws-amplify/storage@6.6.7':
+    resolution: {integrity: sha512-iTpVvTzAGoAzXpI72SJBez3qwqXH8I1IxRKJOURXkv4z2rBeFfCHYv8z+o2DHv7YQ+ATuuQF1TvmQ1Xsat1PLw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
@@ -1364,8 +1364,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.6.1:
-    resolution: {integrity: sha512-b4bH5PM61VqKe/Wpgs9rxp9DegiJhVfDzRaXpmDs82s3J/vlZ2+w0mcTtGFoTQ7S7GrIj2AzdXvoXVlhvpRd6Q==}
+  aws-amplify@6.6.2:
+    resolution: {integrity: sha512-VPboVLLQyyWQvpMfqrEQsF2SkVTqIKMQrEzakl01kIzyoaKKaPVefc7Gd9RmtuDuDcU/SalIR2pIRfE4ZkTMRQ==}
 
   aws-cdk-lib@2.158.0:
     resolution: {integrity: sha512-Pl9CCLM+XRTy6nyyRJM1INEMtwIlZOib0FWyq9i9E388vurw7sNVJ6tAsfLpGIOLHsFQCbF4f6OZ0KSVxmMaiA==}
@@ -2827,9 +2827,9 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@aws-amplify/analytics@7.0.48(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/analytics@7.0.49(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/core': 6.4.2
       '@aws-sdk/client-firehose': 3.621.0
       '@aws-sdk/client-kinesis': 3.621.0
       '@aws-sdk/client-personalize-events': 3.621.0
@@ -2838,10 +2838,10 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.3.1':
+  '@aws-amplify/api-graphql@4.3.2':
     dependencies:
-      '@aws-amplify/api-rest': 4.0.48(@aws-amplify/core@6.4.1)
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/api-rest': 4.0.49(@aws-amplify/core@6.4.2)
+      '@aws-amplify/core': 6.4.2
       '@aws-amplify/data-schema': 1.6.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
@@ -2849,25 +2849,25 @@ snapshots:
       tslib: 2.7.0
       uuid: 9.0.1
 
-  '@aws-amplify/api-rest@4.0.48(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/api-rest@4.0.49(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/core': 6.4.2
       tslib: 2.7.0
 
-  '@aws-amplify/api@6.0.50(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/api@6.0.51(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.3.1
-      '@aws-amplify/api-rest': 4.0.48(@aws-amplify/core@6.4.1)
+      '@aws-amplify/api-graphql': 4.3.2
+      '@aws-amplify/api-rest': 4.0.49(@aws-amplify/core@6.4.2)
       tslib: 2.7.0
     transitivePeerDependencies:
       - '@aws-amplify/core'
 
-  '@aws-amplify/auth@6.4.1(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/auth@6.4.2(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/core': 6.4.2
       tslib: 2.7.0
 
-  '@aws-amplify/core@6.4.1':
+  '@aws-amplify/core@6.4.2':
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -2891,25 +2891,25 @@ snapshots:
       '@types/json-schema': 7.0.15
       rxjs: 7.8.1
 
-  '@aws-amplify/datastore@5.0.50(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/datastore@5.0.51(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/api': 6.0.50(@aws-amplify/core@6.4.1)
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/api': 6.0.51(@aws-amplify/core@6.4.2)
+      '@aws-amplify/core': 6.4.2
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
       rxjs: 7.8.1
       ulid: 2.3.0
 
-  '@aws-amplify/notifications@2.0.48(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/notifications@2.0.49(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/core': 6.4.2
       lodash: 4.17.21
       tslib: 2.7.0
 
-  '@aws-amplify/storage@6.6.6(@aws-amplify/core@6.4.1)':
+  '@aws-amplify/storage@6.6.7(@aws-amplify/core@6.4.2)':
     dependencies:
-      '@aws-amplify/core': 6.4.1
+      '@aws-amplify/core': 6.4.2
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
@@ -2927,7 +2927,7 @@ snapshots:
   '@aws-crypto/crc32@5.2.0':
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.609.0
+      '@aws-sdk/types': 3.649.0
       tslib: 2.7.0
 
   '@aws-crypto/sha256-browser@5.2.0':
@@ -4754,15 +4754,15 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.6.1:
+  aws-amplify@6.6.2:
     dependencies:
-      '@aws-amplify/analytics': 7.0.48(@aws-amplify/core@6.4.1)
-      '@aws-amplify/api': 6.0.50(@aws-amplify/core@6.4.1)
-      '@aws-amplify/auth': 6.4.1(@aws-amplify/core@6.4.1)
-      '@aws-amplify/core': 6.4.1
-      '@aws-amplify/datastore': 5.0.50(@aws-amplify/core@6.4.1)
-      '@aws-amplify/notifications': 2.0.48(@aws-amplify/core@6.4.1)
-      '@aws-amplify/storage': 6.6.6(@aws-amplify/core@6.4.1)
+      '@aws-amplify/analytics': 7.0.49(@aws-amplify/core@6.4.2)
+      '@aws-amplify/api': 6.0.51(@aws-amplify/core@6.4.2)
+      '@aws-amplify/auth': 6.4.2(@aws-amplify/core@6.4.2)
+      '@aws-amplify/core': 6.4.2
+      '@aws-amplify/datastore': 5.0.51(@aws-amplify/core@6.4.2)
+      '@aws-amplify/notifications': 2.0.49(@aws-amplify/core@6.4.2)
+      '@aws-amplify/storage': 6.6.7(@aws-amplify/core@6.4.2)
       tslib: 2.7.0
     transitivePeerDependencies:
       - aws-crt
