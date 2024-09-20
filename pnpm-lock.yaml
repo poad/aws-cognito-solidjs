@@ -73,8 +73,8 @@ importers:
         specifier: ^3.654.0
         version: 3.654.0
       aws-cdk-lib:
-        specifier: ^2.159.0
-        version: 2.159.0(constructs@10.3.0)
+        specifier: ^2.159.1
+        version: 2.159.1(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -92,8 +92,8 @@ importers:
         specifier: ^22.5.5
         version: 22.5.5
       aws-cdk:
-        specifier: ^2.159.0
-        version: 2.159.0
+        specifier: ^2.159.1
+        version: 2.159.1
       esbuild:
         specifier: ^0.23.1
         version: 0.23.1
@@ -1367,8 +1367,8 @@ packages:
   aws-amplify@6.6.2:
     resolution: {integrity: sha512-VPboVLLQyyWQvpMfqrEQsF2SkVTqIKMQrEzakl01kIzyoaKKaPVefc7Gd9RmtuDuDcU/SalIR2pIRfE4ZkTMRQ==}
 
-  aws-cdk-lib@2.159.0:
-    resolution: {integrity: sha512-OzcOuwK11i4xfrcAdDfnALOEBk4tyL257xU9AYTywG7nxQBO7QdawgODcDQV2bXTtNZGZGTH6wwcESNvKk4n8g==}
+  aws-cdk-lib@2.159.1:
+    resolution: {integrity: sha512-zcOyAs3+DTu+CtLehdOgvyosZ7nbLZ+OfBE6uVNMshXm957oXJrLsu6hehLt81TDxfItWYNluFcXkwepZDm6Ng==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1385,8 +1385,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.159.0:
-    resolution: {integrity: sha512-hqKIhfdrUouLDkDH2/kXb4Y5Jjj5CZ+y9ePbi+MBpEns+5xxwIgdONRNSfhRiHq3B07AtDm7Zt9z3sZMw7FG6w==}
+  aws-cdk@2.159.1:
+    resolution: {integrity: sha512-bkJOxic/NpJYQCF3MQhfyJVlFtIzMJeVGZp9jZa7TczxJp79Q/TNKzVJYv6GFabNS1wglGPfWkFB/rIJlRhJkg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -4767,7 +4767,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.159.0(constructs@10.3.0):
+  aws-cdk-lib@2.159.1(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
@@ -4775,7 +4775,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 36.0.25
       constructs: 10.3.0
 
-  aws-cdk@2.159.0:
+  aws-cdk@2.159.1:
     optionalDependencies:
       fsevents: 2.3.2
 
