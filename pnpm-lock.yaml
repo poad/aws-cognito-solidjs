@@ -49,7 +49,7 @@ importers:
         version: 1.9.3
       vite-plugin-node-polyfills:
         specifier: ^0.22.0
-        version: 0.22.0(rollup@4.27.4)(vite@6.0.0(@types/node@22.10.0))
+        version: 0.22.0(rollup@4.27.4)(vite@6.0.1(@types/node@22.10.0))
     devDependencies:
       '@types/node':
         specifier: ^22.10.0
@@ -58,11 +58,11 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.0
-        version: 6.0.0(@types/node@22.10.0)
+        specifier: ^6.0.1
+        version: 6.0.1(@types/node@22.10.0)
       vite-plugin-solid:
         specifier: ^2.11.0
-        version: 2.11.0(solid-js@1.9.3)(vite@6.0.0(@types/node@22.10.0))
+        version: 2.11.0(solid-js@1.9.3)(vite@6.0.1(@types/node@22.10.0))
 
   infra/cognito:
     dependencies:
@@ -2615,8 +2615,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@6.0.0:
-    resolution: {integrity: sha512-Q2+5yQV79EdnpbNxjD3/QHVMCBaQ3Kpd4/uL51UGuh38bIIM+s4o3FqyCzRvTRwFb+cWIUeZvaWwS9y2LD2qeQ==}
+  vite@6.0.1:
+    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -6181,15 +6181,15 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-node-polyfills@0.22.0(rollup@4.27.4)(vite@6.0.0(@types/node@22.10.0)):
+  vite-plugin-node-polyfills@0.22.0(rollup@4.27.4)(vite@6.0.1(@types/node@22.10.0)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.27.4)
       node-stdlib-browser: 1.3.0
-      vite: 6.0.0(@types/node@22.10.0)
+      vite: 6.0.1(@types/node@22.10.0)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@6.0.0(@types/node@22.10.0)):
+  vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@6.0.1(@types/node@22.10.0)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -6197,12 +6197,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 6.0.0(@types/node@22.10.0)
-      vitefu: 1.0.4(vite@6.0.0(@types/node@22.10.0))
+      vite: 6.0.1(@types/node@22.10.0)
+      vitefu: 1.0.4(vite@6.0.1(@types/node@22.10.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.0.0(@types/node@22.10.0):
+  vite@6.0.1(@types/node@22.10.0):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
@@ -6211,9 +6211,9 @@ snapshots:
       '@types/node': 22.10.0
       fsevents: 2.3.3
 
-  vitefu@1.0.4(vite@6.0.0(@types/node@22.10.0)):
+  vitefu@1.0.4(vite@6.0.1(@types/node@22.10.0)):
     optionalDependencies:
-      vite: 6.0.0(@types/node@22.10.0)
+      vite: 6.0.1(@types/node@22.10.0)
 
   vm-browserify@1.1.2: {}
 
