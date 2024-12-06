@@ -49,7 +49,7 @@ importers:
         version: 1.9.3
       vite-plugin-node-polyfills:
         specifier: ^0.22.0
-        version: 0.22.0(rollup@4.28.0)(vite@6.0.2(@types/node@22.10.1))
+        version: 0.22.0(rollup@4.28.0)(vite@6.0.3(@types/node@22.10.1))
     devDependencies:
       '@types/node':
         specifier: ^22.10.1
@@ -58,11 +58,11 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.2
-        version: 6.0.2(@types/node@22.10.1)
+        specifier: ^6.0.3
+        version: 6.0.3(@types/node@22.10.1)
       vite-plugin-solid:
         specifier: ^2.11.0
-        version: 2.11.0(solid-js@1.9.3)(vite@6.0.2(@types/node@22.10.1))
+        version: 2.11.0(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.1))
 
   infra/cognito:
     dependencies:
@@ -503,8 +503,8 @@ packages:
     resolution: {integrity: sha512-9DGttpmPvIxBb/2uwpVo3dqJ+O6RooAFOS+lB+xDqoE2PVCE8nfoHMdZLpfCQRLwvohzXISPZcgxt80xLfsuwg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/traverse@7.26.3':
-    resolution: {integrity: sha512-yTmc8J+Sj8yLzwr4PD5Xb/WF3bOYu2C2OoSZPzbuqRm4n98XirsbzaX+GloeO376UnSYIYJ4NCanwV5/ugZkwA==}
+  '@babel/traverse@7.26.4':
+    resolution: {integrity: sha512-fH+b7Y4p3yqvApJALCPJcwb0/XaOSgtK4pzV6WVjPR5GLFQBRI7pfoX2V2iM48NXvX07NUxxm1Vw98YjqTcU5w==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.26.3':
@@ -1491,8 +1491,8 @@ packages:
     resolution: {integrity: sha512-IGBwjF7tNk3cwypFNH/7bfzBcgSCbaMOD3GsaY1AU/JRrnHnYgEM0+9kQt52iZxjNsjBtJYtao146V+f8jFZNw==}
     engines: {node: '>=10'}
 
-  electron-to-chromium@1.5.68:
-    resolution: {integrity: sha512-FgMdJlma0OzUYlbrtZ4AeXjKxKPk6KT8WOP8BjcqxWtlg8qyJQjRzPJzUtUn5GBg1oQ26hFs7HOOHJMYiJRnvQ==}
+  electron-to-chromium@1.5.71:
+    resolution: {integrity: sha512-dB68l59BI75W1BUGVTAEJy45CEVuEGy9qPVVQ8pnHyHMn36PLPPoE1mjLH+lo9rKulO3HC2OhbACI/8tCqJBcA==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -2620,8 +2620,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@6.0.2:
-    resolution: {integrity: sha512-XdQ+VsY2tJpBsKGs0wf3U/+azx8BBpYRHFAyKm5VeEZNOJZRB63q7Sc8Iup3k0TrN3KO6QgyzFf+opSbfY1y0g==}
+  vite@6.0.3:
+    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3702,7 +3702,7 @@ snapshots:
       '@babel/helpers': 7.26.0
       '@babel/parser': 7.26.3
       '@babel/template': 7.25.9
-      '@babel/traverse': 7.26.3
+      '@babel/traverse': 7.26.4
       '@babel/types': 7.26.3
       convert-source-map: 2.0.0
       debug: 4.3.7
@@ -3738,7 +3738,7 @@ snapshots:
 
   '@babel/helper-module-imports@7.25.9':
     dependencies:
-      '@babel/traverse': 7.26.3
+      '@babel/traverse': 7.26.4
       '@babel/types': 7.26.3
     transitivePeerDependencies:
       - supports-color
@@ -3748,7 +3748,7 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/helper-module-imports': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
-      '@babel/traverse': 7.26.3
+      '@babel/traverse': 7.26.4
     transitivePeerDependencies:
       - supports-color
 
@@ -3796,7 +3796,7 @@ snapshots:
       '@babel/parser': 7.26.3
       '@babel/types': 7.26.3
 
-  '@babel/traverse@7.26.3':
+  '@babel/traverse@7.26.4':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/generator': 7.26.3
@@ -4744,7 +4744,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001686
-      electron-to-chromium: 1.5.68
+      electron-to-chromium: 1.5.71
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -4915,7 +4915,7 @@ snapshots:
 
   domain-browser@4.22.0: {}
 
-  electron-to-chromium@1.5.68: {}
+  electron-to-chromium@1.5.71: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -6194,15 +6194,15 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-node-polyfills@0.22.0(rollup@4.28.0)(vite@6.0.2(@types/node@22.10.1)):
+  vite-plugin-node-polyfills@0.22.0(rollup@4.28.0)(vite@6.0.3(@types/node@22.10.1)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.28.0)
       node-stdlib-browser: 1.3.0
-      vite: 6.0.2(@types/node@22.10.1)
+      vite: 6.0.3(@types/node@22.10.1)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@6.0.2(@types/node@22.10.1)):
+  vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.1)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -6210,12 +6210,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 6.0.2(@types/node@22.10.1)
-      vitefu: 1.0.4(vite@6.0.2(@types/node@22.10.1))
+      vite: 6.0.3(@types/node@22.10.1)
+      vitefu: 1.0.4(vite@6.0.3(@types/node@22.10.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.0.2(@types/node@22.10.1):
+  vite@6.0.3(@types/node@22.10.1):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
@@ -6224,9 +6224,9 @@ snapshots:
       '@types/node': 22.10.1
       fsevents: 2.3.3
 
-  vitefu@1.0.4(vite@6.0.2(@types/node@22.10.1)):
+  vitefu@1.0.4(vite@6.0.3(@types/node@22.10.1)):
     optionalDependencies:
-      vite: 6.0.2(@types/node@22.10.1)
+      vite: 6.0.3(@types/node@22.10.1)
 
   vm-browserify@1.1.2: {}
 
