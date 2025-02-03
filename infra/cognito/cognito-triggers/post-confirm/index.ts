@@ -16,12 +16,11 @@ import 'source-map-support/register';
 
 const logger = new Logger({});
 
-// eslint-disable-next-line import/prefer-default-export
 export const handler: PostConfirmationTriggerHandler = async (
   event: PostConfirmationTriggerEvent,
   _: Context,
-  callback: Callback<any>
-): Promise<any> => {
+  callback: Callback<unknown>
+): Promise<unknown> => {
   logger.debug(JSON.stringify(event));
 
   const { userPoolId, userName, request, triggerSource } = event;
@@ -39,7 +38,7 @@ export const handler: PostConfirmationTriggerHandler = async (
       await identityProvider.send(
         new ListUsersCommand({
           UserPoolId: userPoolId,
-          Filter: `email = \"${email}\"`,
+          Filter: `email = "${email}"`,
         })
       )
     ).Users?.find(
@@ -65,7 +64,7 @@ export const handler: PostConfirmationTriggerHandler = async (
           UserPoolId: userPoolId,
           DestinationUser: {
             ProviderName: 'Cognito',
-            ProviderAttributeValue: user.Username!,
+            ProviderAttributeValue: user.Username ?? '',
           },
           SourceUser: {
             ProviderName: providerName,
@@ -75,7 +74,7 @@ export const handler: PostConfirmationTriggerHandler = async (
         })
       );
 
-      event.userName = user.Username!;
+      event.userName = user.Username ?? '';
 
       return {
           statusCode: 200

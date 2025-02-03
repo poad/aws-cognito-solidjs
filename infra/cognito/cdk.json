@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/aws-cognito-solidjs-cognito.ts",
+  "app": "npx tsx bin/aws-cognito-solidjs-cognito.ts",
   "watch": {
     "include": [
       "**"

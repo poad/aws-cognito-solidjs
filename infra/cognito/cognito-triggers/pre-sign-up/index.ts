@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import {
   CognitoIdentityProviderClient,
   ListUsersCommand,
@@ -19,8 +18,8 @@ const logger = new Logger({});
 export const handler: PreSignUpTriggerHandler = async (
   event: PreSignUpTriggerEvent,
   _: Context,
-  callback: Callback<any>
-): Promise<any> => {
+  callback: Callback<unknown>
+): Promise<unknown> => {
   logger.debug(JSON.stringify(event));
 
   const { userPoolId, request, triggerSource } = event;
@@ -74,7 +73,7 @@ export const handler: PreSignUpTriggerHandler = async (
         UserPoolId: userPoolId,
         DestinationUser: {
           ProviderName: 'Cognito',
-          ProviderAttributeValue: targetUser.Username!,
+          ProviderAttributeValue: targetUser.Username ?? '',
         },
         SourceUser: {
           ProviderName: provider,
@@ -84,13 +83,13 @@ export const handler: PreSignUpTriggerHandler = async (
       })
     );
 
-    const identities: { [name: string]: string }[] = (
+    const identities: Record<string, string>[] = (
       targetUser.Attributes ?? []
     )
       .filter((attribute) => attribute.Name === 'identities' && attribute.Value)
       .flatMap(
         (attribute) =>
-          JSON.parse(attribute.Value!) as { [name: string]: string }[]
+          JSON.parse(attribute.Value ?? '{}') as Record<string, string>[]
       );
     if (
       !identities.find(
@@ -101,7 +100,7 @@ export const handler: PreSignUpTriggerHandler = async (
       return callback('No such link target', event);
     }
 
-    event.userName = targetUser.Username!;
+    event.userName = targetUser.Username ?? '';
 
     return {
       statusCode: 200,

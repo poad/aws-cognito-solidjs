@@ -3,20 +3,17 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "prettier:check": "prettier --check src",
-    "prettier:fix": "prettier --write src",
-    "lint": "pnpm run --parallel /^.*:check/",
-    "lint-fix": "pnpm run /^.*:fix/",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.0",
     "typescript": "^5.7.3",
     "vite": "^6.0.11",
-    "vite-plugin-solid": "^2.11.0"
+    "vite-plugin-solid": "^2.11.1"
   },
   "dependencies": {
     "@solidjs/router": "^0.15.3",
