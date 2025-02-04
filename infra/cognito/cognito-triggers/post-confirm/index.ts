@@ -20,7 +20,7 @@ export const handler: PostConfirmationTriggerHandler = async (
   event: PostConfirmationTriggerEvent,
   _: Context,
   callback: Callback<unknown>
-): Promise<unknown> => {
+): Promise<undefined | {statusCode: number}> => {
   logger.debug(JSON.stringify(event));
 
   const { userPoolId, userName, request, triggerSource } = event;
@@ -84,4 +84,5 @@ export const handler: PostConfirmationTriggerHandler = async (
   logger.debug(JSON.stringify(event));
 
   callback(null, event);
+  return;
 };
