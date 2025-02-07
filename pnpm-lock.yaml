@@ -1465,6 +1465,7 @@ packages:
   aws-cdk@2.178.1:
     resolution: {integrity: sha512-64z9ARFI90jhX6sfjqqJghGxkfh1T4STxY3ccuRY8OxzAK1FY6XLjKBxSyXi9jJFa3v9nN57x7W32u4hZDj6gw==}
     engines: {node: '>= 14.15.0'}
+    deprecated: Every CLI command prints additional SDK traces regardless of the log verbosity setting
     hasBin: true
 
   aws-lambda@1.0.7:
