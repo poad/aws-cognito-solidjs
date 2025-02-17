@@ -48,8 +48,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(eslint@9.20.1)(typescript@5.7.3)
       pnpm:
-        specifier: ^10.4.0
-        version: 10.4.0
+        specifier: ^10.4.1
+        version: 10.4.1
       typescript-eslint:
         specifier: ^8.24.0
         version: 8.24.0(eslint@9.20.1)(typescript@5.7.3)
@@ -2607,8 +2607,8 @@ packages:
     resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
     engines: {node: '>=10'}
 
-  pnpm@10.4.0:
-    resolution: {integrity: sha512-a4SdB4fZf49OHwOpuP+PA4554VPW8RrlOa58Q1/555bfaoYsmRUCaVx/no+siur8GsWo2rR+NhSNGDgy2IbdUg==}
+  pnpm@10.4.1:
+    resolution: {integrity: sha512-x1O2w616+hOvOI+m2AgDWgCOMOqZk/WMZmPivF/yFnmqg02wlJhxKapNSIuG31f3tjSYGy+CfNysxpjMDPuIrw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -6554,7 +6554,7 @@ snapshots:
     dependencies:
       find-up: 5.0.0
 
-  pnpm@10.4.0: {}
+  pnpm@10.4.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
