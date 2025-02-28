@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^2.15.0",
-    "@aws-sdk/client-cognito-identity-provider": "^3.750.0",
-    "aws-cdk-lib": "^2.181.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.758.0",
+    "aws-cdk-lib": "^2.181.1",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
     "source-map-support": "^0.5.21"
