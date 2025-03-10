@@ -48,8 +48,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(eslint@9.21.0)(typescript@5.8.2)
       pnpm:
-        specifier: ^10.6.1
-        version: 10.6.1
+        specifier: ^10.6.2
+        version: 10.6.2
       typescript-eslint:
         specifier: ^8.26.0
         version: 8.26.0(eslint@9.21.0)(typescript@5.8.2)
@@ -107,8 +107,8 @@ importers:
         specifier: ^8.10.147
         version: 8.10.147
       '@types/node':
-        specifier: ^22.13.9
-        version: 22.13.9
+        specifier: ^22.13.10
+        version: 22.13.10
       aws-cdk:
         specifier: ^2.1003.0
         version: 2.1003.0
@@ -117,7 +117,7 @@ importers:
         version: 0.25.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.13.9)(typescript@5.8.2)
+        version: 10.9.2(@types/node@22.13.10)(typescript@5.8.2)
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -1322,6 +1322,9 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
+  '@types/node@22.13.10':
+    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
+
   '@types/node@22.13.9':
     resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
 
@@ -2446,8 +2449,8 @@ packages:
     resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
     engines: {node: '>=10'}
 
-  pnpm@10.6.1:
-    resolution: {integrity: sha512-QO4Jr0B/qfu1+/uOHLQPu3TArww+EOkiTXtTx2WFKGFbLJJFDnTPrZHjotyv485AUNgL2nHXV3VtLOK2YhPpow==}
+  pnpm@10.6.2:
+    resolution: {integrity: sha512-R4cHFr6hVytT3zSthke0KWK8eQziv0Viug9kMjfXMCo9ao7O+eS9/AHSOvGWmqkEhdTOuwuWOPpe8drvZW9sGw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -4910,6 +4913,10 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
+  '@types/node@22.13.10':
+    dependencies:
+      undici-types: 6.20.0
+
   '@types/node@22.13.9':
     dependencies:
       undici-types: 6.20.0
@@ -6282,7 +6289,7 @@ snapshots:
     dependencies:
       find-up: 5.0.0
 
-  pnpm@10.6.1: {}
+  pnpm@10.6.2: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -6624,14 +6631,14 @@ snapshots:
     dependencies:
       typescript: 5.8.2
 
-  ts-node@10.9.2(@types/node@22.13.9)(typescript@5.8.2):
+  ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.9
+      '@types/node': 22.13.10
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
