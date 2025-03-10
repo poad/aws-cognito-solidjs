@@ -20,12 +20,12 @@
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
-    "eslint": "~9.21.0",
+    "eslint": "~9.22.0",
     "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-solid": "^0.14.5",
-    "pnpm": "^10.6.1",
+    "pnpm": "^10.6.2",
     "typescript-eslint": "^8.26.0"
   },
   "packageManager": "pnpm@10.6.1+sha512.40ee09af407fa9fbb5fbfb8e1cb40fbb74c0af0c3e10e9224d7b53c7658528615b2c92450e74cfad91e3a2dcafe3ce4050d80bda71d757756d2ce2b66213e9a3"
