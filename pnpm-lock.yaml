@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@eslint/compat':
-        specifier: ^1.2.8
-        version: 1.2.8(eslint@9.25.1)
+        specifier: ^1.2.9
+        version: 1.2.9(eslint@9.25.1)
       '@eslint/eslintrc':
         specifier: ^3.3.1
         version: 3.3.1
@@ -92,7 +92,7 @@ importers:
         version: 3.799.0
       aws-cdk-lib:
         specifier: ^2.193.0
-        version: 2.193.0(constructs@10.4.2)
+        version: 2.194.0(constructs@10.4.2)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -693,8 +693,8 @@ packages:
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@1.2.8':
-    resolution: {integrity: sha512-LqCYHdWL/QqKIJuZ/ucMAv8d4luKGs4oCPgpt8mWztQAtPrHfXKQ/XAUc8ljCHAfJCn6SvkpTcGt5Tsh8saowA==}
+  '@eslint/compat@1.2.9':
+    resolution: {integrity: sha512-gCdSY54n7k+driCadyMNv8JSPzYLeDVM/ikZRtvtROBpRdFSkS8W9A82MqsaY7lZuwL0wiapgD0NT1xT0hyJsA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^9.10.0
@@ -1550,8 +1550,8 @@ packages:
   aws-amplify@6.14.4:
     resolution: {integrity: sha512-V1uRj0zg/pMsu0MWEg1tgUyR4YdO9Qfgo+P+tOtHUa0Id3SCWGnSaPCGQjIhli6kWHKT74vYsRwXdTfbKCA6xg==}
 
-  aws-cdk-lib@2.193.0:
-    resolution: {integrity: sha512-Bsf11FM85+s9jSAT8JfDNlrSz6LF3Xa2eSNOyMLcXNopI7eVXP1U6opRHK0waaZGLmQfOwsbSp/9XRMKikkazg==}
+  aws-cdk-lib@2.194.0:
+    resolution: {integrity: sha512-v12l31Rx/BDjXEyMsfSmDRsjZu0AzHMoRHDqbcSzDcvSYHjnEW/nuFR0R1+tat9nEX8h54GDctduL6pFcJ8xUg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -4199,7 +4199,7 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/compat@1.2.8(eslint@9.25.1)':
+  '@eslint/compat@1.2.9(eslint@9.25.1)':
     optionalDependencies:
       eslint: 9.25.1
 
@@ -5289,7 +5289,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.193.0(constructs@10.4.2):
+  aws-cdk-lib@2.194.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.233
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
