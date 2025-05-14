@@ -48,8 +48,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(eslint@9.26.0)(typescript@5.8.3)
       pnpm:
-        specifier: ^10.10.0
-        version: 10.10.0
+        specifier: ^10.11.0
+        version: 10.11.0
       typescript-eslint:
         specifier: ^8.32.1
         version: 8.32.1(eslint@9.26.0)(typescript@5.8.3)
@@ -88,7 +88,7 @@ importers:
         specifier: ^2.19.1
         version: 2.19.1
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.806.0
+        specifier: ^3.808.0
         version: 3.808.0
       aws-cdk-lib:
         specifier: ^2.194.0
@@ -2728,8 +2728,8 @@ packages:
     resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
     engines: {node: '>=10'}
 
-  pnpm@10.10.0:
-    resolution: {integrity: sha512-1hXbJG/nDyXc/qbY1z3ueCziPiJF48T2+Igkn7VoFJMYY33Kc8LFyO8qTKDVZX+5VnGIv6tH9WbR7mzph4FcOQ==}
+  pnpm@10.11.0:
+    resolution: {integrity: sha512-ZUBYP0HMX2KOs9l3Ps7oAvT575kjzEW2mJD7R5kdSwkpZGlOw6T3OKQgyRijMwYsi5JdMS9C5PDCY+tgNVH5dw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -6918,7 +6918,7 @@ snapshots:
     dependencies:
       find-up: 5.0.0
 
-  pnpm@10.10.0: {}
+  pnpm@10.11.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
