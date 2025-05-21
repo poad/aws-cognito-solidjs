@@ -67,32 +67,32 @@ importers:
         version: 1.9.7
       vite-plugin-node-polyfills:
         specifier: ^0.23.0
-        version: 0.23.0(rollup@4.40.2)(vite@6.3.5(@types/node@22.15.19))
+        version: 0.23.0(rollup@4.40.2)(vite@6.3.5(@types/node@22.15.21))
     devDependencies:
       '@types/node':
-        specifier: ^22.15.18
-        version: 22.15.19
+        specifier: ^22.15.21
+        version: 22.15.21
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.19)
+        version: 6.3.5(@types/node@22.15.21)
       vite-plugin-solid:
         specifier: ^2.11.6
-        version: 2.11.6(solid-js@1.9.7)(vite@6.3.5(@types/node@22.15.19))
+        version: 2.11.6(solid-js@1.9.7)(vite@6.3.5(@types/node@22.15.21))
 
   infra/cognito:
     dependencies:
       '@aws-lambda-powertools/logger':
         specifier: ^2.19.1
-        version: 2.19.1
+        version: 2.20.0
       '@aws-sdk/client-cognito-identity-provider':
         specifier: ^3.808.0
         version: 3.812.0
       aws-cdk-lib:
         specifier: ^2.196.1
-        version: 2.196.1(constructs@10.4.2)
+        version: 2.197.0(constructs@10.4.2)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -107,8 +107,8 @@ importers:
         specifier: ^8.10.149
         version: 8.10.149
       '@types/node':
-        specifier: ^22.15.18
-        version: 22.15.19
+        specifier: ^22.15.21
+        version: 22.15.21
       aws-cdk:
         specifier: ^2.1014.0
         version: 2.1016.0
@@ -117,7 +117,7 @@ importers:
         version: 0.25.4
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.15.19)(typescript@5.8.3)
+        version: 10.9.2(@types/node@22.15.21)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -205,11 +205,11 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-lambda-powertools/commons@2.19.1':
-    resolution: {integrity: sha512-fSoyiCRigGbIgk2XJlWPOgnIiRM1nxHhwxAHtGp7AgnLK/EAoh8G2kpImmlt1AcfEZNkI0HO/EsbaITYwpRzHw==}
+  '@aws-lambda-powertools/commons@2.20.0':
+    resolution: {integrity: sha512-OlQ0bqdBqvTpccRYExbT2zMQoSi5zHSQIeUn/Tg5eboSp0A1x3YtwRiG422Eg4V22ICoXnG5F+hNAelgOcExoA==}
 
-  '@aws-lambda-powertools/logger@2.19.1':
-    resolution: {integrity: sha512-iMtgT/pvjnPXwwvEb2VNODu0Wl7mIdcHQ4VpRvLKZo4K4BijwyN1enne29+EFeIbACv3UAkvX511KbQSbdF6OQ==}
+  '@aws-lambda-powertools/logger@2.20.0':
+    resolution: {integrity: sha512-Lj5BpO1BcT8pOlF1dWGdxgOvLANJRZO/pNPXcBlL2jRUzEpht0GATmqjlawzZlgzSceRsQlDP1uJOOXr8lPwVw==}
     peerDependencies:
       '@aws-lambda-powertools/jmespath': 2.x
       '@middy/core': 4.x || 5.x || 6.x
@@ -1341,8 +1341,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.15.19':
-    resolution: {integrity: sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==}
+  '@types/node@22.15.21':
+    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -1575,8 +1575,8 @@ packages:
   aws-amplify@6.14.4:
     resolution: {integrity: sha512-V1uRj0zg/pMsu0MWEg1tgUyR4YdO9Qfgo+P+tOtHUa0Id3SCWGnSaPCGQjIhli6kWHKT74vYsRwXdTfbKCA6xg==}
 
-  aws-cdk-lib@2.196.1:
-    resolution: {integrity: sha512-OsJ0luDUnagbJpd5Uweh+/6L7OLZQZB7EV9pD9i23uJF6uoe4M02T+kg67huxZdVJVJTZK6De4QxazlB2/mO6A==}
+  aws-cdk-lib@2.197.0:
+    resolution: {integrity: sha512-P+Ed5YPmwNT/Y6W813VQq56pH4B5p/gB0DrhatpUrMxgeIpvqRzSY0YPHyeV4/Dr/fzhIstL7s4pDpAMrlEP2g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -3236,11 +3236,11 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-lambda-powertools/commons@2.19.1': {}
+  '@aws-lambda-powertools/commons@2.20.0': {}
 
-  '@aws-lambda-powertools/logger@2.19.1':
+  '@aws-lambda-powertools/logger@2.20.0':
     dependencies:
-      '@aws-lambda-powertools/commons': 2.19.1
+      '@aws-lambda-powertools/commons': 2.20.0
       lodash.merge: 4.6.2
 
   '@aws-sdk/client-cognito-identity-provider@3.812.0':
@@ -5087,7 +5087,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.15.19':
+  '@types/node@22.15.21':
     dependencies:
       undici-types: 6.21.0
 
@@ -5370,7 +5370,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  aws-cdk-lib@2.196.1(constructs@10.4.2):
+  aws-cdk-lib@2.197.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.236
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
@@ -6896,14 +6896,14 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  ts-node@10.9.2(@types/node@22.15.19)(typescript@5.8.3):
+  ts-node@10.9.2(@types/node@22.15.21)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.15.19
+      '@types/node': 22.15.21
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -7045,15 +7045,15 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-node-polyfills@0.23.0(rollup@4.40.2)(vite@6.3.5(@types/node@22.15.19)):
+  vite-plugin-node-polyfills@0.23.0(rollup@4.40.2)(vite@6.3.5(@types/node@22.15.21)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.40.2)
       node-stdlib-browser: 1.3.1
-      vite: 6.3.5(@types/node@22.15.19)
+      vite: 6.3.5(@types/node@22.15.21)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-solid@2.11.6(solid-js@1.9.7)(vite@6.3.5(@types/node@22.15.19)):
+  vite-plugin-solid@2.11.6(solid-js@1.9.7)(vite@6.3.5(@types/node@22.15.21)):
     dependencies:
       '@babel/core': 7.27.1
       '@types/babel__core': 7.20.5
@@ -7061,12 +7061,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.7
       solid-refresh: 0.6.3(solid-js@1.9.7)
-      vite: 6.3.5(@types/node@22.15.19)
-      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.19))
+      vite: 6.3.5(@types/node@22.15.21)
+      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.21))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.5(@types/node@22.15.19):
+  vite@6.3.5(@types/node@22.15.21):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -7075,12 +7075,12 @@ snapshots:
       rollup: 4.40.2
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.19
+      '@types/node': 22.15.21
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.19)):
+  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.21)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.15.19)
+      vite: 6.3.5(@types/node@22.15.21)
 
   vm-browserify@1.1.2: {}
 
