@@ -13,10 +13,10 @@
     "all": "pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.150",
-    "@types/node": "^24.0.14",
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.0.15",
     "aws-cdk": "^2.1021.0",
-    "esbuild": "^0.25.6",
+    "esbuild": "^0.25.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
