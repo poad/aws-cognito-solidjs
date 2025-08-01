@@ -21,7 +21,7 @@
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-solid": "^0.14.5",
-    "pnpm": "^10.13.1",
+    "pnpm": "^10.14.0",
     "typescript-eslint": "^8.38.0"
   },
   "packageManager": "pnpm@10.13.1"
