@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-solid": "^0.14.5",
     "pnpm": "^10.15.1",
-    "typescript-eslint": "^8.42.0"
+    "typescript-eslint": "^8.43.0"
   },
   "packageManager": "pnpm@10.15.1"
 }
