@@ -36,8 +36,8 @@ importers:
         specifier: ^0.14.5
         version: 0.14.5(eslint@9.36.0)(typescript@5.9.3)
       pnpm:
-        specifier: ^10.17.1
-        version: 10.17.1
+        specifier: ^10.18.0
+        version: 10.18.0
       typescript-eslint:
         specifier: ^8.45.0
         version: 8.45.0(eslint@9.36.0)(typescript@5.9.3)
@@ -55,7 +55,7 @@ importers:
         version: 1.9.9
       vite-plugin-node-polyfills:
         specifier: ^0.24.0
-        version: 0.24.0(rollup@4.52.3)(vite@7.1.7(@types/node@24.6.2))
+        version: 0.24.0(rollup@4.52.3)(vite@7.1.9(@types/node@24.6.2))
     devDependencies:
       '@types/node':
         specifier: ^24.6.2
@@ -64,11 +64,11 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: ^7.1.7
-        version: 7.1.7(@types/node@24.6.2)
+        specifier: ^7.1.9
+        version: 7.1.9(@types/node@24.6.2)
       vite-plugin-solid:
         specifier: ^2.11.9
-        version: 2.11.9(solid-js@1.9.9)(vite@7.1.7(@types/node@24.6.2))
+        version: 2.11.9(solid-js@1.9.9)(vite@7.1.9(@types/node@24.6.2))
 
   infra/cognito:
     dependencies:
@@ -2602,8 +2602,8 @@ packages:
     resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
     engines: {node: '>=10'}
 
-  pnpm@10.17.1:
-    resolution: {integrity: sha512-F8Vg/KSGeulHOjiZrYSogzSRTzeb5G1FXL+S5c9LOdNJhdRS0lg7rxmWf6dstcF7yeJFUp0LmHRXIapyAOyveg==}
+  pnpm@10.18.0:
+    resolution: {integrity: sha512-6AT4ifHOzEDVctsITuw+SIFzn43sacD/ENLRvv+aTjCTg7ontbdQBZ1/TBSVNbbNDSyx7Trrc5I5pChKaPQM+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3019,8 +3019,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@7.1.7:
-    resolution: {integrity: sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==}
+  vite@7.1.9:
+    resolution: {integrity: sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -6594,7 +6594,7 @@ snapshots:
     dependencies:
       find-up: 5.0.0
 
-  pnpm@10.17.1: {}
+  pnpm@10.18.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -7105,15 +7105,15 @@ snapshots:
 
   validate-html-nesting@1.2.3: {}
 
-  vite-plugin-node-polyfills@0.24.0(rollup@4.52.3)(vite@7.1.7(@types/node@24.6.2)):
+  vite-plugin-node-polyfills@0.24.0(rollup@4.52.3)(vite@7.1.9(@types/node@24.6.2)):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.52.3)
       node-stdlib-browser: 1.3.1
-      vite: 7.1.7(@types/node@24.6.2)
+      vite: 7.1.9(@types/node@24.6.2)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-solid@2.11.9(solid-js@1.9.9)(vite@7.1.7(@types/node@24.6.2)):
+  vite-plugin-solid@2.11.9(solid-js@1.9.9)(vite@7.1.9(@types/node@24.6.2)):
     dependencies:
       '@babel/core': 7.28.4
       '@types/babel__core': 7.20.5
@@ -7121,12 +7121,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.9
       solid-refresh: 0.6.3(solid-js@1.9.9)
-      vite: 7.1.7(@types/node@24.6.2)
-      vitefu: 1.1.1(vite@7.1.7(@types/node@24.6.2))
+      vite: 7.1.9(@types/node@24.6.2)
+      vitefu: 1.1.1(vite@7.1.9(@types/node@24.6.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.1.7(@types/node@24.6.2):
+  vite@7.1.9(@types/node@24.6.2):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -7138,9 +7138,9 @@ snapshots:
       '@types/node': 24.6.2
       fsevents: 2.3.3
 
-  vitefu@1.1.1(vite@7.1.7(@types/node@24.6.2)):
+  vitefu@1.1.1(vite@7.1.9(@types/node@24.6.2)):
     optionalDependencies:
-      vite: 7.1.7(@types/node@24.6.2)
+      vite: 7.1.9(@types/node@24.6.2)
 
   vm-browserify@1.1.2: {}
 
