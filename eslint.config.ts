@@ -1,11 +1,9 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
-// @ts-ignore
 import importPlugin from 'eslint-plugin-import';
+import pluginPromise from 'eslint-plugin-promise';
 
 import solid from "eslint-plugin-solid/configs/typescript";
 
@@ -33,6 +31,8 @@ export default defineConfig(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
+  // @ts-ignore
+  pluginPromise.configs['flat/recommended'],
   {
     files: ['src/**/*.{ts,tsx}'],
     ...solid,
