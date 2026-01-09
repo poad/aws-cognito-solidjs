@@ -85,8 +85,8 @@ importers:
         specifier: ^3.965.0
         version: 3.965.0
       aws-cdk-lib:
-        specifier: ^2.233.0
-        version: 2.233.0(constructs@10.4.4)
+        specifier: ^2.234.0
+        version: 2.234.0(constructs@10.4.4)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -169,8 +169,8 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-cdk/asset-awscli-v1@2.2.242':
-    resolution: {integrity: sha512-4c1bAy2ISzcdKXYS1k4HYZsNrgiwbiDzj36ybwFVxEWZXVAP0dimQTCaB9fxu7sWzEjw3d+eaw6Fon+QTfTIpQ==}
+  '@aws-cdk/asset-awscli-v1@2.2.258':
+    resolution: {integrity: sha512-TL3I9cIue0bAsuwrmjgjAQaEH6JL09y49FVQMDhrz4jJ2iPKuHtdrYd7ydm02t1YZdPZE2M0VNj6VD4fGIFpvw==}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
@@ -1580,8 +1580,8 @@ packages:
   aws-amplify@6.15.9:
     resolution: {integrity: sha512-KnRxqIwy1Qgwkv6vMWmji/KXhY1T1ii0Cpy7F9bYZ7IkacywcC1LwsXuq5ySz1HtbCcSG1zZ3DJs3wJpSzNcEA==}
 
-  aws-cdk-lib@2.233.0:
-    resolution: {integrity: sha512-rBOzIA8TGC5eB8TyVIvckAVlX7a0/gVPE634FguhSee9RFaovjgc5+IixGyyLJhu3lLsMSjqDoqTJg2ab+p8ng==}
+  aws-cdk-lib@2.234.0:
+    resolution: {integrity: sha512-rMALG1b4wqN3fPMjdQ12HZxMN3vA2Er39uFymawMpsiAar+1bxNmFiSPPkW+LY7zQIj1Gha8ZpwAEBNqgTMLwA==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -3187,7 +3187,7 @@ snapshots:
       fast-xml-parser: 4.5.3
       tslib: 2.8.1
 
-  '@aws-cdk/asset-awscli-v1@2.2.242': {}
+  '@aws-cdk/asset-awscli-v1@2.2.258': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
@@ -5364,9 +5364,9 @@ snapshots:
       - '@aws-amplify/react-native'
       - aws-crt
 
-  aws-cdk-lib@2.233.0(constructs@10.4.4):
+  aws-cdk-lib@2.234.0(constructs@10.4.4):
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.242
+      '@aws-cdk/asset-awscli-v1': 2.2.258
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 48.20.0
       constructs: 10.4.4
