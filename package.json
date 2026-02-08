@@ -23,8 +23,8 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "jiti": "^2.6.1",
-    "pnpm": "^10.28.2",
+    "pnpm": "^10.29.1",
     "typescript-eslint": "^8.54.0"
   },
-  "packageManager": "pnpm@10.28.2"
+  "packageManager": "pnpm@10.29.1"
 }
