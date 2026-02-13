@@ -15,14 +15,14 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.160",
     "@types/node": "^25.2.3",
-    "aws-cdk": "^2.1105.0",
+    "aws-cdk": "^2.1106.0",
     "esbuild": "^0.27.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@aws-lambda-powertools/logger": "^2.31.0",
-    "@aws-sdk/client-cognito-identity-provider": "^3.988.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.989.0",
     "aws-cdk-lib": "^2.238.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.5",
