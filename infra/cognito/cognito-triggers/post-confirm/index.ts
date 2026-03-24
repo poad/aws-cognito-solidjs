@@ -12,7 +12,6 @@ import {
   PostConfirmationTriggerHandler,
 } from 'aws-lambda';
 import { Logger } from '@aws-lambda-powertools/logger';
-import 'source-map-support/register';
 
 const logger = new Logger({});
 
