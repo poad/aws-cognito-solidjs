@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { CognitoEntraIdOidcStack } from '../lib/aws-cognito-solidjs-cognito-stack';
+import { CognitoEntraIdOidcStack } from '../lib/aws-cognito-solidjs-cognito-stack.js';
 
 interface EnvProps {
   domain: string;
