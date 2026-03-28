@@ -2,10 +2,11 @@ import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import pluginPromise from 'eslint-plugin-promise';
 
 import solid from "eslint-plugin-solid/configs/typescript";
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 
 import { includeIgnoreFile } from '@eslint/compat';
 import path from "node:path";
@@ -55,14 +56,10 @@ export default defineConfig(
         '@typescript-eslint/parser': ['.ts'],
       },
       'import/internal-regex': '^~/',
-      'import/resolver': {
-        node: {
-          extensions: ['.ts', '.tsx'],
-        },
-        typescript: {
-          alwaysTryTypes: true,
-        },
-      },
+      'import/resolver': createTypeScriptImportResolver({
+        alwaysTryTypes: true,
+        project: './tsconfig.json',
+      }),
     },
     rules: {
       '@stylistic/semi': ['error', 'always'],
