@@ -8,6 +8,8 @@ updates:
       time: "12:00"
     allow:
       - dependency-type: all
+    cooldown:
+      default-days: 7
     rebase-strategy: auto
     assignees:
       - poad
@@ -17,49 +19,22 @@ updates:
           - "*"
 
   - package-ecosystem: npm
-    directory: '/'
+    directories:
+      - '/'
+      - '/app/'
+      - '/infra/cognito/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
       time: "12:00"
     allow:
       - dependency-type: all
+    cooldown:
+      default-days: 7
     rebase-strategy: auto
     assignees:
       - poad
     groups:
       npm:
-        patterns:
-          - "*"
-
-  - package-ecosystem: npm
-    directory: '/app/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-      time: "12:00"
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      frontend:
-        patterns:
-          - "*"
-
-  - package-ecosystem: npm
-    directory: '/infra/cognito/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-      time: "12:00"
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      awscdk:
         patterns:
           - "*"
