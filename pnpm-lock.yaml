@@ -88,11 +88,11 @@ importers:
         specifier: ^2.33.0
         version: 2.33.0
       '@aws-sdk/client-cognito-identity-provider':
-        specifier: ^3.1036.0
-        version: 3.1036.0
+        specifier: ^3.1037.0
+        version: 3.1037.0
       aws-cdk-lib:
-        specifier: ^2.250.0
-        version: 2.250.0(constructs@10.6.0)
+        specifier: ^2.251.0
+        version: 2.251.0(constructs@10.6.0)
       constructs:
         specifier: ^10.6.0
         version: 10.6.0
@@ -216,8 +216,8 @@ packages:
       '@middy/core':
         optional: true
 
-  '@aws-sdk/client-cognito-identity-provider@3.1036.0':
-    resolution: {integrity: sha512-KMpR/ZrWl8pxOxcYtja4E58Qans/F4fpykWPHG2RnHPWwJus73yZPF5XYyyvW1IK4kWcoY/ZlJC9lTzHYQC+3Q==}
+  '@aws-sdk/client-cognito-identity-provider@3.1037.0':
+    resolution: {integrity: sha512-w0HuaMNtzcj6bErBX8/TVGbOz0a8JNCzPHLMq2u/ll4uuxl9Xut0njuy7vyY0/pYCuNE+no4uq+yHwn8U3ptgw==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/client-firehose@3.1036.0':
@@ -1398,8 +1398,8 @@ packages:
   aws-amplify@6.16.4:
     resolution: {integrity: sha512-BeeLmYMz+J9BLsKHOW/iMrewyG9GwlkmIyqYRcfByo6RHNOz5BFgKn+ASo0RtbMX+duBK1llNWcjfdTbGMcTBw==}
 
-  aws-cdk-lib@2.250.0:
-    resolution: {integrity: sha512-8U8/S9VcmKSc3MHZWiB7P0IecgXoohI8Ya3dgtZMgbzC4mB+MEQmsYBeNgm4vzGQdRos8HjQLnFX1IBlZh7jQA==}
+  aws-cdk-lib@2.251.0:
+    resolution: {integrity: sha512-H1Jfz2Oyejn+yG24i+By9fZpYfg+E3h1XnFCF2wnt/MyGOTIePRph7MRGkX73ap10ERSpmd0Ly58OLVykFoSQA==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -2318,7 +2318,7 @@ snapshots:
       '@aws-lambda-powertools/commons': 2.33.0
       '@aws/lambda-invoke-store': 0.2.4
 
-  '@aws-sdk/client-cognito-identity-provider@3.1036.0':
+  '@aws-sdk/client-cognito-identity-provider@3.1037.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -3810,7 +3810,7 @@ snapshots:
       - '@aws-amplify/react-native'
       - aws-crt
 
-  aws-cdk-lib@2.250.0(constructs@10.6.0):
+  aws-cdk-lib@2.251.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
