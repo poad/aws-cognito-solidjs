@@ -18,6 +18,6 @@
   "dependencies": {
     "@solidjs/router": "^0.16.1",
     "aws-amplify": "^6.17.0",
-    "solid-js": "^1.9.12"
+    "solid-js": "^1.9.13"
   }
 }
