@@ -1,6 +1,7 @@
-import { Show, type Component } from "solid-js";
-import Comp from "./Comp";
-import * as auth from "./auth";
+import { Show, type Component } from 'solid-js';
+
+import * as auth from './auth';
+import Comp from './Comp';
 
 const App: Component = () => {
   const [session] = auth.useSession();
@@ -8,10 +9,7 @@ const App: Component = () => {
   const [attributes] = auth.useUserAttributes();
   return (
     <>
-      <Show
-        when={!session.loading && session().tokens}
-        fallback={<auth.SignInButton />}
-      >
+      <Show when={!session.loading && session().tokens} fallback={<auth.SignInButton />}>
         <h1>Hello world!!!!</h1>
         <Comp />
         <Show when={!user.loading && user()}>

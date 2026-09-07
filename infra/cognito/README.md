@@ -33,7 +33,6 @@
 
 <https://supabase.com/docs/guides/auth/social-login/auth-azure>
 
-
 ### ユーザープールを作成
 
 ```sh
