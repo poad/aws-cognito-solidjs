@@ -1,3 +1,4 @@
+import { Logger } from '@aws-lambda-powertools/logger';
 import {
   AdminDeleteUserCommand,
   AdminLinkProviderForUserCommand,
@@ -11,15 +12,14 @@ import {
   PostConfirmationTriggerEvent,
   PostConfirmationTriggerHandler,
 } from 'aws-lambda';
-import { Logger } from '@aws-lambda-powertools/logger';
 
 const logger = new Logger({});
 
 export const handler: PostConfirmationTriggerHandler = async (
   event: PostConfirmationTriggerEvent,
   _: Context,
-  callback: Callback<unknown>
-): Promise<undefined | {statusCode: number}> => {
+  callback: Callback<unknown>,
+): Promise<undefined | { statusCode: number }> => {
   logger.debug(JSON.stringify(event));
 
   const { userPoolId, userName, request, triggerSource } = event;
@@ -38,24 +38,22 @@ export const handler: PostConfirmationTriggerHandler = async (
         new ListUsersCommand({
           UserPoolId: userPoolId,
           Filter: `email = "${email}"`,
-        })
+        }),
       )
-    ).Users?.find(
-      (user) => (user.UserStatus as string | undefined) === 'EXTERNAL_PROVIDER'
-    );
+    ).Users?.find((user) => (user.UserStatus as string | undefined) === 'EXTERNAL_PROVIDER');
 
     if (user) {
       await identityProvider.send(
         new AdminUserGlobalSignOutCommand({
           UserPoolId: userPoolId,
           Username: userName,
-        })
+        }),
       );
       await identityProvider.send(
         new AdminDeleteUserCommand({
           UserPoolId: userPoolId,
           Username: userName,
-        })
+        }),
       );
 
       await identityProvider.send(
@@ -70,13 +68,13 @@ export const handler: PostConfirmationTriggerHandler = async (
             ProviderAttributeName: 'Cognito_Subject',
             ProviderAttributeValue: userId,
           },
-        })
+        }),
       );
 
       event.userName = user.Username ?? '';
 
       return {
-          statusCode: 200
+        statusCode: 200,
       };
     }
   }

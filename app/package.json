@@ -2,22 +2,23 @@
   "name": "@aws-cognito-solidjs/app",
   "version": "0.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
-    "lint": "eslint",
-    "lint-fix": "eslint --fix",
+    "lint": "oxfmt --check && oxlint",
+    "lint-fix": "oxfmt && oxlint --fix",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
-  "devDependencies": {
-    "@types/node": "^26.1.2",
-    "typescript": "^6.0.3",
-    "vite": "^8.2.0",
-    "vite-plugin-solid": "^2.11.14"
-  },
   "dependencies": {
-    "@solidjs/router": "^0.16.3",
+    "@solidjs/router": "^1.0.0",
     "aws-amplify": "^6.20.0",
-    "solid-js": "^1.9.14"
+    "solid-js": "^1.9.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vite-plugin-solid": "^2.11.14"
   }
 }

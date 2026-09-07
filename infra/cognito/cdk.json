@@ -1,9 +1,7 @@
 {
   "app": "npx tsx bin/aws-cognito-solidjs-cognito.ts",
   "watch": {
-    "include": [
-      "**"
-    ],
+    "include": ["**"],
     "exclude": [
       "README.md",
       "cdk*.json",
@@ -20,14 +18,8 @@
   "context": {
     "dev": {
       "domain": "dev-azure-oidc",
-      "callbackUrls": [
-        "http://localhost:5173/",
-        "http://localhost:3000/"
-      ],
-      "logoutUrls": [
-        "http://localhost:5173/",
-        "http://localhost:3000/"
-      ]
+      "callbackUrls": ["http://localhost:5173/", "http://localhost:3000/"],
+      "logoutUrls": ["http://localhost:5173/", "http://localhost:3000/"]
     }
   }
 }
