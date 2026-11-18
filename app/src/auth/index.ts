@@ -1,3 +1,3 @@
-export * from './hooks';
-export * from './SignInButton';
-export * from './SignOutButton';
+export * from './hooks.js';
+export * from './SignInButton.jsx';
+export * from './SignOutButton.jsx';

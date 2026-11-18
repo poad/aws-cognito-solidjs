@@ -1,14 +1,17 @@
 import { fetchAuthSession, fetchUserAttributes, getCurrentUser } from 'aws-amplify/auth';
-import { createResource } from 'solid-js';
+import { createMemo } from 'solid-js';
 
 export function useSession() {
-  return createResource(async () => await fetchAuthSession());
+  const session = createMemo(() => fetchAuthSession());
+  return session;
 }
 
 export function useCurrentUser() {
-  return createResource(async () => await getCurrentUser());
+  const user = createMemo(() => getCurrentUser());
+  return user;
 }
 
 export function useUserAttributes() {
-  return createResource(async () => await fetchUserAttributes());
+  const attributes = createMemo(() => fetchUserAttributes());
+  return attributes;
 }

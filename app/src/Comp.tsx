@@ -7,7 +7,7 @@ export default () => {
       <button onClick={() => setCount((current) => (current > 0 ? current - 1 : current))}>
         -
       </button>
-      <input type="text" value={count()} readOnly style={{ 'text-align': 'center' }} />
+      <input type="text" value={count()} readonly style={{ 'text-align': 'center' }} />
       <button onClick={() => setCount((current) => current + 1)}>+</button>
     </>
   );
