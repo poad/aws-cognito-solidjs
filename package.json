@@ -8,12 +8,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "build": "pnpm -r --parallel --if-present build",
     "lint": "pnpm -r --parallel --if-present lint",
     "lint-fix": "pnpm -r --parallel --if-present lint-fix"
   },
   "devDependencies": {
-    "oxfmt": "^0.77.0",
-    "oxlint": "^1.92.0"
+    "oxfmt": "^0.78.0",
+    "oxlint": "^1.93.0"
   },
   "devEngines": {
     "packageManager": {

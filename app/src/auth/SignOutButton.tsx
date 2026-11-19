@@ -1,6 +1,6 @@
+import { type JSX } from '@solidjs/web';
 import { signOut } from 'aws-amplify/auth';
 import { ConsoleLogger } from 'aws-amplify/utils';
-import { type JSX } from 'solid-js/jsx-runtime';
 
 export const SignOutButton = (): JSX.Element => {
   const logger = new ConsoleLogger('SignOutButton');
