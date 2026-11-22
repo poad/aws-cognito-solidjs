@@ -31,7 +31,7 @@ export class CognitoEntraIdOidcStack extends cdk.Stack {
     });
 
     const preSignUpFn = new nodejs.NodejsFunction(this, 'PreSignUpLambdaFunction', {
-      runtime: lambda.Runtime.NODEJS_24_X,
+      runtime: lambda.Runtime.NODEJS_26_X,
       architecture: lambda.Architecture.ARM_64,
       entry: 'cognito-triggers/pre-sign-up/index.ts',
       functionName: preSignUpFunctionName,
@@ -80,7 +80,7 @@ export class CognitoEntraIdOidcStack extends cdk.Stack {
     });
 
     const postConfirmFn = new nodejs.NodejsFunction(this, 'PostConfirmLambdaFunction', {
-      runtime: lambda.Runtime.NODEJS_24_X,
+      runtime: lambda.Runtime.NODEJS_26_X,
       architecture: lambda.Architecture.ARM_64,
       entry: 'cognito-triggers/post-confirm/index.ts',
       functionName: postConfirmFunctionName,
